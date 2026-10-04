@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: medical-japanese
 title: 利用上およびコンテンツに関する注意
 ---
 

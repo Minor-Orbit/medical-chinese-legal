@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: medical-japanese
 title: プライバシーポリシー
 ---
 
