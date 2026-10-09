@@ -5,7 +5,7 @@ title: Privacy policy
 
 # Privacy policy
 
-Effective date: October 8, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, currently version 0.8.0. The developer's public support contact is **davidleepub@gmail.com**.
+Effective date: October 9, 2026. This policy describes the English-guide version of K-pop Pocket Korean for Android, package `com.minororbit.fankorean`. The developer's public support contact is **davidleepub@gmail.com**.
 
 ## 1. Learning on your device
 
@@ -13,7 +13,7 @@ The app provides Korean expressions, Hangul practice and fan-related learning si
 
 ## 2. Information stored locally
 
-The app stores saved expression IDs, completed situation IDs and timestamps, practice-set titles and ordered expression IDs, listening counts, the last learning position, display and speech settings, selected speech engine and voice, locally unlocked lessons, and the expiry of a temporary banner-ad pause. These records support learning, resuming, customization and advertising rewards. They are stored in the app's private database or preferences, without being uploaded to a developer learning server.
+The app stores saved expression IDs, completed situation IDs, completion counts and timestamps, earned badge records and dates, practice-set titles and ordered expression IDs, listening counts, the last learning position, display and speech settings, selected speech engine and voices, locally unlocked lessons, and the expiry of a temporary banner-ad pause. It also keeps local mascot-message rotation records and the first-open time and foreground duration used for introductory greetings. These records support learning, resuming, customization and advertising rewards. They are stored in the app's private database or preferences, without being uploaded to a developer learning server.
 
 ## 3. Optional microphone recording
 
@@ -24,6 +24,8 @@ The app does not send practice recordings to the developer, Google advertising s
 ## 4. Android text-to-speech
 
 Korean text is passed to your selected installed Android text-to-speech engine for playback. The app selects installed Korean voices that the engine identifies as not requiring a network connection. Installing an engine or downloading a voice may require internet access. The engine is separate software and may process its own diagnostic or service data under its provider's policy. The app does not send your practice recordings to that engine. You can change the engine and voice in speech settings.
+
+The optional home-mascot audio consists of preset, pre-generated files bundled with the app. The installed app does not call fal.ai or ElevenLabs to generate those greetings, and does not transmit your recordings or learning records to those services.
 
 ## 5. Google advertising and consent
 
@@ -39,7 +41,7 @@ For the service's details, see [Google's privacy policy](https://policies.google
 
 If you share a practice set, the app creates a file containing its title, expression IDs, their order and format/content version information, and gives that file to the app you select through Android's sharing interface. It does not include recordings, learning progress or advertising unlocks. Do not put sensitive personal information in set titles. The receiving app or service may store or transmit the file under its own policy. Temporary sharing files are kept in the app cache and older files are cleaned during subsequent exports.
 
-You can manually export a learning backup using Android's document picker. It contains saved expressions, completed situations and practice sets. It does not contain recordings, speech settings, listening counts or advertising rewards/unlocks. You choose where the file is saved; a cloud document provider you select may upload it. Imports merge supported learning records. Files outside app storage remain under your control and must be deleted separately.
+You can manually export a learning backup using Android's document picker. It contains saved expressions, completed situations and practice sets. It does not contain recordings, completion counts, earned badge records, settings, listening counts, mascot rotation records or advertising rewards/unlocks. Restored completed-situation records can recover lesson-based badge eligibility, but do not restore repeat or voice badge records. You choose where the file is saved; a cloud document provider you select may upload it. Imports merge supported learning records. Files outside app storage remain under your control and must be deleted separately.
 
 The app disables Android automatic backup and configures cloud-backup and device-transfer exclusions for its app data. These settings do not prevent a user-selected document provider from storing a manual export.
 

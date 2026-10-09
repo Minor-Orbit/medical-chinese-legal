@@ -5,7 +5,7 @@ title: Usage & content notices
 
 # Usage & content notices
 
-Updated: October 8, 2026. App: **K-pop Pocket Korean**. Support: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**.
+Updated: October 9, 2026. App: **K-pop Pocket Korean**. Support: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**.
 
 ## Learning purpose
 
@@ -15,7 +15,9 @@ Expressions and usage tips are general examples. Their appropriateness depends o
 
 ## Pronunciation and practice
 
-Audio is synthesized by an installed Android Korean text-to-speech engine, not spoken or endorsed by an artist. Voice quality and pronunciation vary by engine. Download an offline Korean voice if playback is unavailable. The romanized pronunciation guide is an aid, not the International Phonetic Alphabet; it cannot represent all Korean sounds or sound changes. Listen to the Korean audio and use the Hangul explanations together.
+Learning expressions use an installed Android Korean text-to-speech engine and are not spoken or endorsed by an artist. Voice quality and pronunciation vary by engine. Download an offline Korean voice if playback is unavailable. The romanized pronunciation guide is an aid, not the International Phonetic Alphabet; it cannot represent all Korean sounds or sound changes. Listen to the Korean audio and use the Hangul explanations together.
+
+The home mascot has optional preset Korean greeting audio, generated in advance using ElevenLabs through fal.ai and bundled with the app. This audio is synthetic, not a real artist's performance or endorsement. The installed app does not call those services to generate speech, and the greetings are not responses to your practice recordings.
 
 Practice recordings are for listening to yourself. The app does not grade pronunciation or automatically determine fluency. Listening and completion counts describe actions in the app rather than proven mastery. For further study, seek a qualified teacher or reliable Korean-language learning resources.
 
@@ -27,9 +29,9 @@ Additional learning situations can be unlocked by an optional rewarded ad. Unloc
 
 ## Content and illustrations
 
-The app contains developer-prepared learning examples, an original pocket/Hangul icon design, a fictional mascot and AI-generated illustrations documented in the app source repository. AI-generated art is not a statement that every possible third-party rights question has been legally cleared. The app does not distribute commercial music recordings, song lyrics, real artist photographs or official group logos in this release.
+The app contains developer-prepared learning examples, a pocket-themed KPOP FAN icon design, a fictional mascot and AI-generated illustrations documented in the app source repository. AI-generated art is not a statement that every possible third-party rights question has been legally cleared. The app does not distribute commercial music recordings, song lyrics, real artist photographs or official group logos in this release.
 
-The mascot Han-kuk and illustrated people are fictional. They are not actual artists or representations of a particular K-pop group. Their brief greetings are preset messages, not live conversations or personalized AI advice. The app is independent and does not claim endorsement by artists, agencies, event organizers or educational institutions. Third-party names and linked resources remain associated with their respective owners. Report a suspected content error or rights issue to support with the relevant screen or expression.
+The home mascot and illustrated people are fictional. They are not actual artists or representations of a particular K-pop group. Their brief greetings are preset messages, not live conversations or personalized AI advice. The app is independent and does not claim endorsement by artists, agencies, event organizers or educational institutions. Third-party names and linked resources remain associated with their respective owners. Report a suspected content error or rights issue to support with the relevant screen or expression.
 
 ## Additional Hangul resources
 
