@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy and content information for Workplace Korean: Learn Korean (한국일터)">
+<title>{{ page.title | escape }} | Workplace Korean</title>
+<style>
+:root{color-scheme:light;color:#243047;background:#fffdf7;font-family:system-ui,sans-serif}*{box-sizing:border-box}body{margin:0;line-height:1.75}header,main,footer{width:min(100% - 32px,800px);margin:auto}header{padding:24px 0;border-bottom:1px solid #d9e5e1}.brand{font-size:1.3rem;font-weight:750}nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:12px}main{padding:28px 0 40px;overflow-wrap:anywhere}h1,h2,h3{line-height:1.35}h1{font-size:1.9rem}h2{font-size:1.35rem;margin-top:32px}a{color:#007b75;text-underline-offset:3px}a:focus-visible{outline:3px solid #007b75;outline-offset:4px}footer{padding:20px 0 32px;border-top:1px solid #d9e5e1;font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div class="brand">Workplace Korean · 한국일터</div>
+<nav aria-label="Workplace Korean policy pages">
+<a href="{{ '/workplace-korean/privacy/' | relative_url }}">Privacy policy</a>
+<a href="{{ '/workplace-korean/privacy/ko/' | relative_url }}">개인정보처리방침</a>
+<a href="{{ '/workplace-korean/notices/' | relative_url }}">Usage &amp; content notices</a>
+</nav></header>
+<main>{{ content }}</main>
+<footer>Workplace Korean: Learn Korean · <a href="mailto:davidleepub@gmail.com">davidleepub@gmail.com</a></footer>
+</body></html>
