@@ -15,7 +15,7 @@ Expressions and usage tips are general examples. Their appropriateness depends o
 
 ## Pronunciation and practice
 
-Learning expressions use an installed Android Korean text-to-speech engine and are not spoken or endorsed by an artist. Voice quality and pronunciation vary by engine. Download an offline Korean voice if playback is unavailable. The romanized pronunciation guide is an aid, not the International Phonetic Alphabet; it cannot represent all Korean sounds or sound changes. Listen to the Korean audio and use the Hangul explanations together.
+Learning expressions use synthetic Google Cloud Text-to-Speech audio generated in advance and bundled with the app. They are not spoken or endorsed by an artist. The installed app does not call that API for playback. Some Hangul practice sounds and helper text use an installed offline Android Korean text-to-speech voice; device speech tools are available in audio help. Synthetic speech may occasionally pronounce a word or sentence unnaturally. The romanized pronunciation guide is an aid, not the International Phonetic Alphabet; it cannot represent all Korean sounds or sound changes. Listen to the Korean audio and use the Hangul explanations together.
 
 The home mascot has optional preset Korean greeting audio, generated in advance using ElevenLabs through fal.ai and bundled with the app. This audio is synthetic, not a real artist's performance or endorsement. The installed app does not call those services to generate speech, and the greetings are not responses to your practice recordings.
 

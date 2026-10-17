@@ -1,11 +1,13 @@
 ---
 layout: kpop-pocket-korean
 title: Privacy policy
+lang: en
+policy_language: en
 ---
 
 # Privacy policy
 
-Effective date: October 9, 2026. This policy describes the English-guide version of K-pop Pocket Korean for Android, package `com.minororbit.fankorean`. The developer's public support contact is **davidleepub@gmail.com**.
+Effective date: October 17, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, across its guide languages. The developer's public support contact is **davidleepub@gmail.com**.
 
 ## 1. Learning on your device
 
@@ -23,7 +25,9 @@ The app does not send practice recordings to the developer, Google advertising s
 
 ## 4. Android text-to-speech
 
-Korean text is passed to your selected installed Android text-to-speech engine for playback. The app selects installed Korean voices that the engine identifies as not requiring a network connection. Installing an engine or downloading a voice may require internet access. The engine is separate software and may process its own diagnostic or service data under its provider's policy. The app does not send your practice recordings to that engine. You can change the engine and voice in speech settings.
+Learning expressions use pre-generated Google Cloud Text-to-Speech audio files bundled with the app. The developer generated these files from the app's fixed curriculum, not from user recordings or learning records. Playback does not call the Google Cloud Text-to-Speech API. Voice choices for expressions and individual dialogues are stored locally.
+
+Some Hangul practice sounds and helper text use an installed Android text-to-speech engine. The app selects installed Korean voices that the engine identifies as not requiring a network connection. Installing an engine or downloading a voice may require internet access. The engine is separate software and may process its own diagnostic or service data under its provider's policy. The app does not send your practice recordings to that engine. Device speech tools are available in audio help.
 
 The optional home-mascot audio consists of preset, pre-generated files bundled with the app. The installed app does not call fal.ai or ElevenLabs to generate those greetings, and does not transmit your recordings or learning records to those services.
 

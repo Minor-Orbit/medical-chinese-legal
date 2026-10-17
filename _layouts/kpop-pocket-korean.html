@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,10 +24,21 @@
 <body>
   <header>
     <div class="brand">K-pop Pocket Korean</div>
+    {% assign current_privacy_path = '/kpop-pocket-korean/privacy/' %}
+    {% if page.policy_language and page.policy_language != 'en' %}{% assign current_privacy_path = current_privacy_path | append: page.policy_language | append: '/' %}{% endif %}
     <nav aria-label="Policy pages">
-      <a href="{{ '/kpop-pocket-korean/privacy/' | relative_url }}">Privacy policy</a>
+      <a href="{{ current_privacy_path | relative_url }}">{{ page.privacy_label | default: 'Privacy policy' | escape }}</a>
       <a href="{{ '/kpop-pocket-korean/notices/' | relative_url }}">Usage &amp; content notices</a>
     </nav>
+    {% if page.policy_language %}
+    <nav aria-label="Language">
+      {% for language in site.data.kpop_privacy_languages %}
+        {% assign policy_path = '/kpop-pocket-korean/privacy/' %}
+        {% unless language.code == 'en' %}{% assign policy_path = policy_path | append: language.code | append: '/' %}{% endunless %}
+        <a href="{{ policy_path | relative_url }}" lang="{{ language.code }}"{% if language.code == page.policy_language %} aria-current="page"{% endif %}>{{ language.name | escape }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
   </header>
   <main>{{ content }}</main>
   <footer>K-pop Pocket Korean · Contact: <a href="mailto:davidleepub@gmail.com">davidleepub@gmail.com</a></footer>
