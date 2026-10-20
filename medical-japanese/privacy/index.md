@@ -1,14 +1,18 @@
 ---
 layout: medical-japanese
-title: プライバシーポリシー
+title: 개인정보처리방침 / Privacy Policy / プライバシーポリシー
 ---
+
+[日本語](#japanese) · [한국어](#korean) · [English](#english)
+
+<a id="japanese"></a>
 
 # プライバシーポリシー
 
-適用開始日：本アプリの初回公開日  
-最終更新日：2026年10月4日
+適用開始日：本アプリの初回公開日（本改定は2026年10月20日から適用）
+最終更新日：2026年10月20日
 
-Minor Orbit（以下「当方」）が提供する `医療日本語－病院コーディネーター・通訳練習`（パッケージ名：`com.minororbit.medicaljapanese`、以下「本アプリ」）は、会員登録および当方が運営するサーバーを使用せずに動作する韓国語・日本語学習アプリです。本ポリシーでは、本アプリにおける利用者情報の取扱いについて説明します。
+Minor Orbit（以下「当方」）が提供する `医療韓国語`（韓国語名：`의료 일본어 - 병원 코디·통역 연습`、英語名：`Medical Japanese`、パッケージ名：`com.minororbit.medicaljapanese`、以下「本アプリ」）は、日本語から韓国語、韓国語または英語から日本語を学ぶ語学学習アプリです。会員登録は不要で、学習情報を保存する当方運営のサーバーはありません。本ポリシーでは、本アプリにおける利用者情報の取扱いについて説明します。
 
 ## 1. 本アプリが端末内に保存する情報
 
@@ -31,7 +35,7 @@ Minor Orbit（以下「当方」）が提供する `医療日本語－病院コ�
 
 ## 3. 音声読み上げ
 
-本アプリ内に音声ファイルがない項目では、端末に設定されたAndroidの音声合成（TTS）エンジンを使用する場合があります。本アプリは読み上げる文を当方のサーバーへ送信しません。ただし、選択されたTTSエンジンによる処理には、その提供者のプライバシーポリシーが適用されます。
+音声読み上げでは、端末で選択されたAndroid音声合成（TTS）エンジンへ読み上げるテキストを渡します。当方のサーバーには送信しませんが、エンジンや音声の設定により提供者のネットワークサービスで処理される場合があります。提供者の設定とプライバシーポリシーをご確認ください。オフラインでの読み上げを保証するものではありません。
 
 ## 4. 広告および第三者サービス
 
@@ -43,6 +47,9 @@ Googleおよび広告パートナーは、広告の配信・測定・分析・�
 
 - [Google プライバシーポリシー](https://policies.google.com/privacy?hl=ja)
 - [Google による広告でのデータ利用](https://policies.google.com/technologies/ads?hl=ja)
+- [Google Mobile Ads SDKのデータ開示](https://developers.google.com/admob/android/privacy/play-data-disclosure)
+
+設定内の広告プライバシー選択は、UMPが必要と判断した場合に表示されます。表示されないことは、広告関連の情報処理がないことを意味しません。端末の広告ID設定やGoogleのプライバシー管理もご確認ください。位置情報の権限を要求しなくても、広告サービスはIPアドレスからおおよその地域を推定する場合があります。
 
 ## 5. 利用する権限
 
@@ -75,16 +82,18 @@ Googleおよび広告パートナーは、広告の配信・測定・分析・�
 
 ## 11. お問い合わせ
 
-プライバシーに関するお問い合わせは、[Minor Orbitの公開ポリシーリポジトリのIssues](https://github.com/Minor-Orbit/medical-chinese-legal/issues)からご連絡ください。
+プライバシーに関するお問い合わせは、[Minor Orbitの公開ポリシーリポジトリのIssues](https://github.com/Minor-Orbit/medical-chinese-legal/issues)からご連絡ください。Issuesは公開されます。録音、患者情報、健康情報、パスワードなどの機密情報を投稿しないでください。
 
 ---
 
+<a id="korean"></a>
+
 ## 한국어 개인정보처리방침
 
-시행 예정일: 앱 최초 출시일  
-최종 개정: 2026년 10월 4일
+최초 시행: 앱 최초 출시일 / 이번 개정 시행: 2026년 10월 20일
+최종 개정: 2026년 10월 20일
 
-Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 코디·통역 연습`(패키지명: `com.minororbit.medicaljapanese`, 이하 “앱”)은 회원가입과 개발자가 운영하는 서버 없이 작동하는 한국어·일본어 학습 앱입니다. 이 방침에서는 앱의 사용자 정보 처리 방법을 설명합니다.
+Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 코디·통역 연습`(영어 이름: `Medical Japanese`, 일본어 이름: `医療韓国語`, 패키지명: `com.minororbit.medicaljapanese`, 이하 “앱”)은 한국어·영어로 일본어를 배우고 일본어로 한국어를 배우는 언어 학습 앱입니다. 회원가입은 없으며 학습정보를 저장하는 개발자 운영 서버도 없습니다. 이 방침에서는 앱의 사용자 정보 처리 방법을 설명합니다.
 
 ### 1. 앱이 기기에 저장하는 정보
 
@@ -107,7 +116,7 @@ Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 �
 
 ### 3. 음성 읽기
 
-앱 내부에 음성 파일이 없는 항목은 기기에 설정된 Android 음성 합성(TTS) 엔진을 사용할 수 있습니다. 앱은 읽어 줄 문장을 개발자 서버로 전송하지 않습니다. 다만 선택한 TTS 엔진의 처리는 해당 제공자의 개인정보처리방침을 따릅니다.
+음성 읽기는 기기에서 선택한 Android 음성 합성(TTS) 엔진에 읽을 텍스트를 전달합니다. 개발자 서버로 전송하지는 않지만 엔진·음성 설정에 따라 제공자의 네트워크 서비스에서 처리할 수 있습니다. 해당 제공자의 설정과 개인정보처리방침을 확인해 주십시오. 항상 오프라인으로 처리된다고 보장하지 않습니다.
 
 ### 4. 광고와 제3자 서비스
 
@@ -119,6 +128,9 @@ Google과 광고 파트너는 광고 제공·측정·분석·부정 사용 방�
 
 - [Google 개인정보처리방침](https://policies.google.com/privacy?hl=ko)
 - [Google의 광고 데이터 이용 방식](https://policies.google.com/technologies/ads?hl=ko)
+- [Google Mobile Ads SDK 데이터 공개 안내](https://developers.google.com/admob/android/privacy/play-data-disclosure)
+
+설정의 광고 개인정보 선택은 UMP가 필요하다고 판단한 경우 표시됩니다. 이 항목이 없다고 광고 관련 정보 처리가 없다는 뜻은 아닙니다. 기기의 광고 ID 설정과 Google 개인정보 관리 기능도 확인할 수 있습니다. 위치 권한을 요청하지 않더라도 광고 서비스가 IP 주소로 대략적인 지역을 추정할 수 있습니다.
 
 ### 5. 사용하는 권한
 
@@ -151,5 +163,63 @@ Google과 광고 파트너는 광고 제공·측정·분석·부정 사용 방�
 
 ### 11. 문의
 
-개인정보 관련 문의는 [Minor Orbit 공개 정책 저장소의 Issues](https://github.com/Minor-Orbit/medical-chinese-legal/issues)를 이용해 주십시오.
+개인정보 관련 문의는 [Minor Orbit 공개 정책 저장소의 Issues](https://github.com/Minor-Orbit/medical-chinese-legal/issues)를 이용해 주십시오. Issues는 공개되므로 녹음, 환자정보, 건강정보, 비밀번호 등 민감하거나 기밀인 정보를 게시하지 마십시오.
+
+---
+
+<a id="english"></a>
+
+## English Privacy Policy
+
+Originally effective on the app's first release; this revision is effective **20 October 2026**. Last updated: **20 October 2026**.
+
+Minor Orbit provides **Medical Japanese**, also named **의료 일본어 - 병원 코디·통역 연습** in Korean and **医療韓国語** in Japanese (Android package: `com.minororbit.medicaljapanese`). You can learn Japanese through Korean or English and learn Korean through Japanese. No account registration is required. Minor Orbit does not operate a server that stores your learning records. Third-party advertising and text-to-speech services may process information as described below.
+
+### 1. Information stored on your device
+
+App-private storage holds favorites, your custom words and notes, hidden content, learning-mode and display settings, progress, practice counts, badges, playback/resume positions, rewarded-ad unlocks and the expiry time of a banner-ad pause. These records are not uploaded to a Minor Orbit server. They are not synchronized through a Minor Orbit account.
+
+### 2. Microphone and recordings
+
+Microphone permission is requested when you choose to record pronunciation or interpreting practice. Non-recording features remain available without this permission. The latest recording for a practice item and language/direction replaces the previous recording in that slot. The app stores recordings in app-private storage and does not upload them to Minor Orbit or third-party servers. Do not record identifiable patient information, health records or other confidential information.
+
+Recordings can be removed by re-recording, individual deletion, resetting learning data, clearing app storage or uninstalling. Recordings are excluded from Android cloud backup and device-transfer rules. No background microphone access is requested.
+
+### 3. Text-to-speech
+
+The app passes the text to be spoken to the Android text-to-speech engine selected on your device, not to a Minor Orbit server. Depending on your engine and voice settings, its provider may process text using network services under its own privacy policy. Check the provider's settings if you need offline speech; offline processing is not guaranteed.
+
+### 4. Advertising and third-party services
+
+The app uses Google AdMob (Google Mobile Ads SDK) for banner and optional rewarded ads, and Google User Messaging Platform (UMP) for applicable consent and privacy choices. Google and its advertising partners may collect or share IP addresses, advertising and other device/account identifiers, app interactions and diagnostic information for ad delivery, measurement, analytics and fraud prevention. Processing depends on region, consent, device settings and SDK configuration. Approximate location may be inferred from IP addresses without requesting device location permission.
+
+An optional rewarded ad can unlock additional learning content on this device or pause banner ads for two hours. Basic learning content does not require rewarded-ad viewing. Reward status is stored locally, not in a Minor Orbit account.
+
+Ad privacy choices in Settings are displayed when UMP requires them. An unavailable choice does not mean no advertising data is processed. Device advertising-ID settings and Google's privacy controls may also be available.
+
+- [Google Privacy Policy](https://policies.google.com/privacy?hl=en)
+- [Google advertising technologies](https://policies.google.com/technologies/ads?hl=en)
+- [Google Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure)
+
+### 5. Permissions
+
+Microphone access is used for user-initiated practice recordings. Internet and network-state access support advertising and consent services. The app does not request contacts, device location, camera, phone, SMS or shared-storage access.
+
+### 6. Retention, deletion and security
+
+Local information remains until removed through the relevant in-app deletion/reset controls, clearing app storage or uninstalling. Resetting learning or reward data may also remove badges and ad-earned unlocks. There is no Minor Orbit server account to delete. Google and TTS providers control retention and deletion of information they process under their own policies and controls.
+
+Learning information and recordings are held in app-private storage; recordings are excluded from backup and transfer. The app does not permit cleartext HTTP network traffic. This does not guarantee the absolute security of every device or provider.
+
+### 7. Children and medical information
+
+The app is not designed specifically for children. A parent or guardian who believes a child's information has been handled improperly can contact Minor Orbit without posting the child's personal details publicly.
+
+This is a language-learning app, not a medical device. It does not send symptoms or medical records to Minor Orbit, provide diagnosis, prescriptions, personalized treatment or emergency instructions, or replace professional medical care or a qualified interpreter. See the [usage and content notice](../notices/).
+
+### 8. Changes and contact
+
+We update this page when app data practices, SDKs or relevant requirements change and display the revision date. Material changes will be described in the app or on this public page.
+
+Contact Minor Orbit through the [public policy repository Issues](https://github.com/Minor-Orbit/medical-chinese-legal/issues). Issues are public: **do not post recordings, patient or health information, passwords or other confidential personal information**.
 
