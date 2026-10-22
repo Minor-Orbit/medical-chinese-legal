@@ -5,7 +5,7 @@ lang: en
 ---
 # Privacy policy
 
-Effective date: October 11, 2026.
+Effective date: October 22, 2026.
 
 App: **Workplace Korean: Learn Korean**, also referred to as Practical Workplace Korean or 한국일터. Android package: `com.minororbit.workplacekorean`. Developer/support contact: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**. This policy applies only to this app.
 
@@ -15,7 +15,7 @@ The app provides bundled Korean lessons, optional Hangul basics, quizzes, saved-
 
 ## 2. Records on your device
 
-The app stores lesson and saved-expression identifiers, learning positions, completion counts and dates, answers/progress used for practice, review records, learning/review days, language and voice preferences, audio speed, automatic playback, daily goals and helper preferences. It also stores local advertising-reward unlocks, ad-pause timing and helper greeting/rotation records.
+The app stores lesson and saved-expression identifiers, learning positions, completion counts and dates, answers/progress used for practice, review records, learning/review days, language and voice preferences, audio speed, automatic playback and helper preferences. It also stores local advertising-reward unlocks, ad-pause timing and helper greeting/rotation records. Older installations may retain a legacy daily-goal preference; the current settings screen no longer offers that feature.
 
 The app-introduction badge records opening Android's share sheet, not whether a message was sent or whom it reached. These records are held in the app's private database or preferences and used for learning, resuming, settings and rewards. They are not uploaded to a developer learning server.
 
@@ -25,21 +25,27 @@ The app asks for microphone permission when you choose to record speaking practi
 
 The app does not upload recordings to the developer, advertising SDK or an AI service. It does not perform speech recognition or automated pronunciation scoring. Avoid recording others without their permission. This version has no dedicated recording-deletion control; clearing app storage or uninstalling removes recordings on that installation.
 
-## 4. Android text-to-speech
+## 4. Bundled audio and Android text-to-speech
+
+The MP3 option plays Korean recordings bundled with the app; playback does not send lesson text to a developer speech server. You can choose device TTS instead. Missing MP3 recordings and the optional Hangul guide use device TTS.
 
 The app passes lesson text to the installed Android text-to-speech engine to read it aloud. Voices and network requirements depend on the engine and selected voice. Some voices work offline; installing voice data, network voices and provider diagnostics may involve that provider's services and privacy policy. Practice recordings are not passed to the speech engine.
 
 The installed app does not use a developer Google Cloud TTS, fal.ai or ElevenLabs API key to generate speech. Voice names or development samples are not an indication that those cloud APIs run inside the app.
 
-## 5. Google advertising and privacy choices
+## 5. Advertising and privacy choices
 
-This release uses Google Mobile Ads SDK **25.5.0** and Google's User Messaging Platform (UMP). Banner ads and optional rewarded ads involve Google and its advertising partners. The SDK can process IP addresses and inferred general location, device/account or advertising identifiers, interaction data, and diagnostics for advertising, measurement and abuse prevention. The app does not request GPS location, contacts or your photo library.
+The Unity-enabled update includes Unity Ads SDK **4.16.6**, Google Mobile Ads SDK **25.5.0** and Google's User Messaging Platform (UMP). That update disables Google ad initialization and requests; Unity provides banner ads and optional rewarded ads. Earlier releases may use Google advertising, which may also be re-enabled in a future build. Advertising SDKs and partners can process IP addresses and inferred general location, device or advertising identifiers, interaction data, and diagnostics for advertising, measurement and abuse prevention. The app does not request GPS location, contacts or your photo library.
 
-Consent information is requested through UMP, and the app gates ad initialization using Google's can-request-ads result. A settings entry for advertising privacy choices is shown when UMP requires it. Available forms and choices depend on Google's configuration and region. Advertising-ID controls are also available in Android settings. A banner pause is not a promise that all SDK processing stops.
+Consent information is requested through UMP, and the app gates ad initialization using its can-request-ads result. Unity's developer privacy consent flags are set to false; the app does not assert that you have consented to personalized Unity advertising. A settings entry for advertising privacy choices is shown when UMP requires it. Available forms and choices depend on Google's configuration and region. Advertising-ID controls are also available in Android settings. A banner pause is not a promise that all SDK processing stops.
 
 An earned optional reward pauses banner ads for two hours; a separate reward unlocks the additional lesson pack offered by the app. Rewards are stored locally, not paid purchases, cash or transferable account entitlements. Reward availability depends on the ad service and successful completion.
 
 Google states that Mobile Ads SDK transmissions use TLS. Data processing and retention by Google and partners follow their policies, and may take place outside your country. See [Google Privacy Policy](https://policies.google.com/privacy), [advertising information](https://policies.google.com/technologies/ads), and [SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure).
+
+Unity and its partners process advertising data under the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy), including its privacy rights and choices. Advertising data can be processed outside your country. Local learning records and microphone recordings are not attached to ad requests by the app.
+
+Unity's [SDK data-safety disclosure](https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety) also identifies SDK/user identifiers, purchase-history information and ad interactions among its data categories. This does not mean that the app asks for your name, email, bank/card details or offers in-app purchases: the app does not send a developer account profile or purchase events to Unity. SDK advertising and attribution processing is separate from local lesson rewards. Unity's disclosure describes app-usage timing when its optional Acquire Optimization feature is enabled.
 
 ## 6. Android backup and device transfer
 
