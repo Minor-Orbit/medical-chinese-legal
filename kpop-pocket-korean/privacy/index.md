@@ -7,11 +7,11 @@ policy_language: en
 
 # Privacy policy
 
-Effective date: October 17, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, across its guide languages. The developer's public support contact is **davidleepub@gmail.com**.
+Effective date: October 23, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, across its guide languages. The developer's public support contact is **davidleepub@gmail.com**.
 
 ## 1. Learning on your device
 
-The app provides Korean expressions, Hangul practice and fan-related learning situations. Its learning content is bundled with the app. There is no developer-operated learning server, user account, login or cloud synchronization. We do not operate a separate analytics or crash-reporting service in this version. This does **not** mean that the entire app has no external data processing: Google advertising services, the selected Android speech provider and services you choose to open may process data as explained below.
+The app provides Korean expressions, Hangul practice and fan-related learning situations. Its learning content is bundled with the app. There is no developer-operated learning server, user account, login or cloud synchronization. We do not operate a separate analytics or crash-reporting service in this version. This does **not** mean that the entire app has no external data processing: Google and Unity advertising services, the selected Android speech provider and services you choose to open may process data as explained below.
 
 ## 2. Information stored locally
 
@@ -40,6 +40,11 @@ The app requests consent information and shows Google's consent form when requir
 Rewarded ads are optional. One reward pauses banner ads for two hours; a separate reward unlocks one additional learning situation on this device. The reward is applied after the SDK confirms that it was earned. These rewards are local records, not purchases, money or transferable account entitlements. Clearing app storage or uninstalling can remove them.
 
 For the service's details, see [Google's privacy policy](https://policies.google.com/privacy), [Google advertising information](https://policies.google.com/technologies/ads), and [Google Mobile Ads SDK data disclosure](https://developers.google.com/admob/android/privacy/play-data-disclosure). The installed SDK version for this release is 24.9.0; Google's disclosure page may describe a newer version.
+
+
+### Unity Ads direct SDK
+
+From version 0.8.8, the app also uses Unity Ads SDK 4.21.0 directly for banners and voluntary rewarded ads. Unity may collect and share IP-derived approximate location, device/advertising and SDK identifiers, ad interactions and diagnostics for advertising, measurement, app functionality and fraud prevention. The app sends Unity a refusal of personalized advertising and sale/sharing consent; contextual ads still process data and may involve international transfers. Learning progress and practice recordings are not sent to Unity. No LevelPlay or Ad Quality SDK is included in this version. See [Unity's privacy policy](https://unity.com/legal/privacy-policy), [Unity Ads data disclosure](https://docs.unity.com/en-us/ads-android/4.21.0/privacy/developer-consent/disclosures/google-data-safety) and [Unity privacy choices](https://unity.com/legal/privacy-policy#privacy-rights).
 
 ## 6. Sharing and manual backups
 
