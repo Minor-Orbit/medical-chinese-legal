@@ -5,7 +5,7 @@ lang: en
 ---
 # Privacy policy
 
-Effective date: October 22, 2026.
+Effective date: October 23, 2026.
 
 App: **Workplace Korean: Learn Korean**, also referred to as Practical Workplace Korean or 한국일터. Android package: `com.minororbit.workplacekorean`. Developer/support contact: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**. This policy applies only to this app.
 
@@ -35,7 +35,7 @@ The installed app does not use a developer Google Cloud TTS, fal.ai or ElevenLab
 
 ## 5. Advertising and privacy choices
 
-The Unity-enabled update includes Unity Ads SDK **4.16.6**, Google Mobile Ads SDK **25.5.0** and Google's User Messaging Platform (UMP). That update disables Google ad initialization and requests; Unity provides banner ads and optional rewarded ads. Earlier releases may use Google advertising, which may also be re-enabled in a future build. Advertising SDKs and partners can process IP addresses and inferred general location, device or advertising identifiers, interaction data, and diagnostics for advertising, measurement and abuse prevention. The app does not request GPS location, contacts or your photo library.
+The Unity-enabled update includes Unity Ads SDK **4.16.6**, Google Mobile Ads SDK **25.5.0** and Google's User Messaging Platform (UMP). Both advertising providers are enabled for banner and optional rewarded ads. After the privacy gate, when both SDKs are ready, initial requests are selected approximately 80% for Unity and 20% for Google; a failed load can try the other ready provider once. If only one SDK is ready, only that provider is used. This is request selection, not a guaranteed split of displayed ads. Earlier versions may use Google only. Advertising SDKs and partners can process IP addresses and inferred general location, device or advertising identifiers, interaction data, and diagnostics for advertising, measurement and abuse prevention. The app does not request GPS location, contacts or your photo library.
 
 Consent information is requested through UMP, and the app gates ad initialization using its can-request-ads result. Unity's developer privacy consent flags are set to false; the app does not assert that you have consented to personalized Unity advertising. A settings entry for advertising privacy choices is shown when UMP requires it. Available forms and choices depend on Google's configuration and region. Advertising-ID controls are also available in Android settings. A banner pause is not a promise that all SDK processing stops.
 
