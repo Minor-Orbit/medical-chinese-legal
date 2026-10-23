@@ -10,7 +10,7 @@ title: 개인정보처리방침 / Privacy Policy / プライバシーポリシ�
 # プライバシーポリシー
 
 適用開始日：本アプリの初回公開日（本改定は2026年10月20日から適用）
-最終更新日：2026年10月20日
+最終更新日：2026年10月23日（Unity Ads対応版の広告処理を追記）
 
 Minor Orbit（以下「当方」）が提供する `医療韓国語`（韓国語名：`의료 일본어 - 병원 코디·통역 연습`、英語名：`Medical Japanese`、パッケージ名：`com.minororbit.medicaljapanese`、以下「本アプリ」）は、日本語から韓国語、韓国語または英語から日本語を学ぶ語学学習アプリです。会員登録は不要で、学習情報を保存する当方運営のサーバーはありません。本ポリシーでは、本アプリにおける利用者情報の取扱いについて説明します。
 
@@ -38,6 +38,16 @@ Minor Orbit（以下「当方」）が提供する `医療韓国語`（韓国語
 音声読み上げでは、端末で選択されたAndroid音声合成（TTS）エンジンへ読み上げるテキストを渡します。当方のサーバーには送信しませんが、エンジンや音声の設定により提供者のネットワークサービスで処理される場合があります。提供者の設定とプライバシーポリシーをご確認ください。オフラインでの読み上げを保証するものではありません。
 
 ## 4. 広告および第三者サービス
+
+### Unity Ads対応版
+
+UnityのSDK公開資料は購入履歴も広告・分析目的の取扱い対象として挙げています。本アプリに購入機能や購入履歴送信APIがないことだけを理由に、SDKによる処理が一切ないと保証するものではありません。
+
+Unity Ads対応版では、バナーと任意のリワード広告にUnity Ads SDKを使用します。AdMobの配信を停止している間はUnityのみを利用し、AdMobの復旧を確認して有効にした版では両サービスを利用する場合があります。既存のAdMob版の取扱いは下記の説明も適用されます。Google UMPによる利用可否を確認し、Unityにパーソナライズ広告への同意を勝手に付与することはありません。
+
+Unityとそのパートナーは、広告配信、測定、分析、サービスの提供、不正防止のため、IPアドレスに基づくおおよその地域、広告・端末その他の識別子、広告内の表示・タップ、診断情報を収集・共有する場合があります。当方は学習単語、練習録音、患者情報をUnityへ送信しません。アプリ内購入や購入履歴の送信は実装していません。Unity側のデータ保持、削除およびプライバシー選択は[Unityのプライバシーポリシー](https://unity.com/legal/privacy-policy)および[プライバシー管理窓口](https://unity.com/legal/privacy-policy#your-choices)をご確認ください。広告のプライバシーアイコンも利用できます。ローカルの学習記録を削除しても、広告提供者の記録が自動的に削除されるわけではありません。
+
+### AdMobおよび同意サービス
 
 本アプリは、バナー広告および利用者が任意に選択するリワード広告の表示にGoogle AdMob（Google Mobile Ads SDK）を使用します。また、地域および適用法令に応じた同意・プライバシー選択画面の提供にGoogle User Messaging Platform（UMP）を使用します。
 
@@ -91,7 +101,7 @@ Googleおよび広告パートナーは、広告の配信・測定・分析・�
 ## 한국어 개인정보처리방침
 
 최초 시행: 앱 최초 출시일 / 이번 개정 시행: 2026년 10월 20일
-최종 개정: 2026년 10월 20일
+최종 개정: 2026년 10월 23일(Unity Ads 지원 버전의 광고 처리 추가)
 
 Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 코디·통역 연습`(영어 이름: `Medical Japanese`, 일본어 이름: `医療韓国語`, 패키지명: `com.minororbit.medicaljapanese`, 이하 “앱”)은 한국어·영어로 일본어를 배우고 일본어로 한국어를 배우는 언어 학습 앱입니다. 회원가입은 없으며 학습정보를 저장하는 개발자 운영 서버도 없습니다. 이 방침에서는 앱의 사용자 정보 처리 방법을 설명합니다.
 
@@ -119,6 +129,16 @@ Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 �
 음성 읽기는 기기에서 선택한 Android 음성 합성(TTS) 엔진에 읽을 텍스트를 전달합니다. 개발자 서버로 전송하지는 않지만 엔진·음성 설정에 따라 제공자의 네트워크 서비스에서 처리할 수 있습니다. 해당 제공자의 설정과 개인정보처리방침을 확인해 주십시오. 항상 오프라인으로 처리된다고 보장하지 않습니다.
 
 ### 4. 광고와 제3자 서비스
+
+#### Unity Ads 지원 버전
+
+Unity SDK 공개 문서는 구매 내역도 광고·분석 목적의 처리 항목으로 명시합니다. 이 앱에 구매 기능이나 구매 이력 전송 API가 없다는 이유만으로 SDK가 해당 정보를 전혀 처리하지 않는다고 보장하지 않습니다.
+
+Unity Ads 지원 버전은 배너와 선택형 보상 광고에 Unity Ads SDK를 사용합니다. AdMob 중지 중에는 Unity만 사용하며, 복구를 확인하고 활성화한 버전에서는 두 서비스를 사용할 수 있습니다. 기존 AdMob 버전에는 아래 설명도 적용됩니다. Google UMP로 광고 요청 가능 여부를 확인하며, Unity에 맞춤형 광고 동의를 임의로 부여하지 않습니다.
+
+Unity와 파트너는 광고 제공·측정·분석·서비스 제공·부정 사용 방지를 위해 IP 기반 대략적 위치, 광고·기기 등 식별자, 광고 안의 표시·탭, 진단정보를 수집·공유할 수 있습니다. 개발자는 학습 단어, 연습 녹음, 환자정보를 Unity로 전송하지 않습니다. 앱 내 구매나 구매 이력 전송은 구현하지 않았습니다. Unity의 보유기간·삭제·개인정보 선택은 [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)과 [개인정보 관리 안내](https://unity.com/legal/privacy-policy#your-choices)를 확인해 주십시오. 광고의 개인정보 아이콘도 이용할 수 있습니다. 기기 학습기록 삭제가 광고 제공자의 기록까지 자동 삭제하는 것은 아닙니다.
+
+#### AdMob 및 동의 서비스
 
 앱은 배너 광고와 사용자가 선택하여 보는 보상형 광고를 표시하기 위해 Google AdMob(Google Mobile Ads SDK)을 사용합니다. 또한 지역과 관련 법률에 따른 동의 및 개인정보 선택 화면을 제공하기 위해 Google User Messaging Platform(UMP)을 사용합니다.
 
@@ -171,7 +191,7 @@ Google과 광고 파트너는 광고 제공·측정·분석·부정 사용 방�
 
 ## English Privacy Policy
 
-Originally effective on the app's first release; this revision is effective **20 October 2026**. Last updated: **20 October 2026**.
+Originally effective on the app's first release. Last updated: **23 October 2026**, adding disclosures for the Unity Ads-enabled release.
 
 Minor Orbit provides **Medical Japanese**, also named **의료 일본어 - 병원 코디·통역 연습** in Korean and **医療韓国語** in Japanese (Android package: `com.minororbit.medicaljapanese`). You can learn Japanese through Korean or English and learn Korean through Japanese. No account registration is required. Minor Orbit does not operate a server that stores your learning records. Third-party advertising and text-to-speech services may process information as described below.
 
@@ -190,6 +210,16 @@ Recordings can be removed by re-recording, individual deletion, resetting learni
 The app passes the text to be spoken to the Android text-to-speech engine selected on your device, not to a Minor Orbit server. Depending on your engine and voice settings, its provider may process text using network services under its own privacy policy. Check the provider's settings if you need offline speech; offline processing is not guaranteed.
 
 ### 4. Advertising and third-party services
+
+#### Unity Ads-enabled releases
+
+Unity's SDK disclosure also lists purchase history for advertising and analytics. The absence of an in-app purchasing feature or a purchase-history API in this app is not a guarantee that the SDK never processes such information.
+
+Unity-enabled releases use the Unity Ads SDK for banners and optional rewarded ads. While AdMob serving is suspended, only Unity ad inventory is requested. A release enabled after confirmed AdMob recovery may use both providers. Existing AdMob releases are also covered by the disclosure below. Google UMP gates ad-request eligibility; the app does not assert personalized-ad consent to Unity on your behalf.
+
+Unity and its partners may collect/share IP-derived approximate location, advertising/device and other identifiers, ad views/taps and diagnostics for advertising, measurement, analytics, service operation and fraud prevention. Minor Orbit does not send learning vocabulary, practice recordings or patient information to Unity. In-app purchases and purchase-history transmission are not implemented. For Unity's retention, deletion and privacy choices, see its [Privacy Policy](https://unity.com/legal/privacy-policy) and [privacy choices](https://unity.com/legal/privacy-policy#your-choices). You may also use the privacy icon within an ad. Deleting local learning records does not automatically delete advertising providers' records.
+
+#### AdMob and consent services
 
 The app uses Google AdMob (Google Mobile Ads SDK) for banner and optional rewarded ads, and Google User Messaging Platform (UMP) for applicable consent and privacy choices. Google and its advertising partners may collect or share IP addresses, advertising and other device/account identifiers, app interactions and diagnostic information for ad delivery, measurement, analytics and fraud prevention. Processing depends on region, consent, device settings and SDK configuration. Approximate location may be inferred from IP addresses without requesting device location permission.
 
