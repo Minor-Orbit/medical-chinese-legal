@@ -7,7 +7,7 @@ title: Privacy Policy (English) — Medical Chinese
 
 Effective date: the app's first public release
 
-Last updated: October 5, 2026
+Last updated: October 23, 2026 (for versions incorporating Unity Ads)
 
 [한국어 개인정보처리방침](../)
 
@@ -37,6 +37,17 @@ Please avoid recording sensitive personal or patient information.
 Where a bundled audio file is unavailable, the App uses the Android text-to-speech (TTS) engine selected on your device. The App does not send text for TTS to a developer server. Depending on the engine and voice you select, its provider may process text or other data under that provider's own privacy policy. You can manage TTS engines and voices in your device settings.
 
 ## Advertising and third-party data
+
+### Versions incorporating Unity Ads
+
+These versions use both Google AdMob and the Unity Ads direct SDK for bottom banners and voluntary rewarded ads. Existing Google disclosures remain applicable to earlier and current versions. The App does not pass learning content, entered text, notes, medical content, recordings or voice to advertising SDKs.
+
+Unity may process or share IP-derived approximate location, device and advertising identifiers, ad interactions and diagnostics for advertising, measurement, analytics, security and fraud prevention. The App sends false for Unity personalized-ad consent; non-personalized advertising still involves SDK data processing. Google UMP permission is not interpreted as Unity personalization consent. Required UMP privacy options remain accessible in settings. The privacy icon in Unity ads provides related privacy and deletion-request information.
+
+An advertising retry deadline is stored locally after network failures. Existing two-hour banner pauses and conversation unlocks retain their previous reward and storage behavior.
+
+- [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+- [Unity game-player and app-user privacy information](https://unity.com/legal/game-player-and-app-user-privacy-policy)
 
 The App uses Google AdMob to display banner and optional rewarded ads. According to Google's Mobile Ads SDK disclosure, Google and its advertising partners may collect or share data such as your IP address, advertising and other device identifiers, app interactions, and diagnostic information for advertising, measurement, analytics, and fraud prevention. This processing is separate from the App's on-device learning records.
 
