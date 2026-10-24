@@ -2,7 +2,7 @@
 layout: workplace-korean
 title: رازداری کی پالیسی
 lang: ur
-dir: rtl
+text_direction: rtl
 ---
 # رازداری کی پالیسی
 
