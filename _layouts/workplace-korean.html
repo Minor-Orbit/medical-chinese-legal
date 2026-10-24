@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ page.lang | default: 'en' }}">
+<html lang="{{ page.lang | default: 'en' }}" dir="{{ page.dir | default: 'ltr' }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +7,9 @@
 <title>{{ page.title | escape }} | Workplace Korean</title>
 <style>
 :root{color-scheme:light;color:#243047;background:#fffdf7;font-family:system-ui,sans-serif}*{box-sizing:border-box}body{margin:0;line-height:1.75}header,main,footer{width:min(100% - 32px,800px);margin:auto}header{padding:24px 0;border-bottom:1px solid #d9e5e1}.brand{font-size:1.3rem;font-weight:750}nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:12px}main{padding:28px 0 40px;overflow-wrap:anywhere}h1,h2,h3{line-height:1.35}h1{font-size:1.9rem}h2{font-size:1.35rem;margin-top:32px}a{color:#007b75;text-underline-offset:3px}a:focus-visible{outline:3px solid #007b75;outline-offset:4px}footer{padding:20px 0 32px;border-top:1px solid #d9e5e1;font-size:.9rem}
+</style>
+<style>
+.policy-languages{margin-top:16px}.policy-languages summary{cursor:pointer;padding:8px 0}.policy-languages ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px}.policy-languages a[aria-current=page]{font-weight:750;text-decoration-thickness:3px}.policy-sources{margin-top:32px;border-top:1px solid #d9e5e1;padding-top:16px}.policy-sources ul{padding-inline-start:24px}code{direction:ltr;unicode-bidi:isolate}a[href^="mailto:"]{direction:ltr;unicode-bidi:isolate}
 </style>
 </head>
 <body>
@@ -16,6 +19,26 @@
 <a href="{{ '/workplace-korean/privacy/ko/' | relative_url }}">개인정보처리방침</a>
 <a href="{{ '/workplace-korean/notices/' | relative_url }}">Usage &amp; content notices</a>
 </nav></header>
-<main>{{ content }}</main>
+<main>
+<details class="policy-languages">
+<summary>Languages · 언어</summary>
+<ul>
+{% for language in site.data.workplace_privacy_languages %}
+<li><a href="{{ language.path | relative_url }}" lang="{{ language.tag }}" hreflang="{{ language.tag }}" dir="auto"{% if page.lang == language.tag %} aria-current="page"{% endif %}>{{ language.name }}</a></li>
+{% endfor %}
+</ul>
+</details>
+{{ content }}
+{% if page.url contains '/privacy/' %}
+<section class="policy-sources" aria-label="Official provider references" dir="ltr">
+<p><a href="{{ '/workplace-korean/privacy/' | relative_url }}" lang="en">English reference</a> · <a href="{{ '/workplace-korean/privacy/ko/' | relative_url }}" lang="ko">한국어 원문</a></p>
+<ul>
+<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/ads">Google advertising</a> · <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK data disclosure</a></li>
+<li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a> · <a href="https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety">Unity SDK data safety</a></li>
+<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a></li>
+</ul>
+</section>
+{% endif %}
+</main>
 <footer>Workplace Korean: Learn Korean · <a href="mailto:davidleepub@gmail.com">davidleepub@gmail.com</a></footer>
 </body></html>

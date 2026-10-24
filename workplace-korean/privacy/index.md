@@ -5,7 +5,7 @@ lang: en
 ---
 # Privacy policy
 
-Effective date: October 23, 2026.
+Effective date: October 24, 2026.
 
 App: **Workplace Korean: Learn Korean**, also referred to as Practical Workplace Korean or 한국일터. Android package: `com.minororbit.workplacekorean`. Developer/support contact: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**. This policy applies only to this app.
 

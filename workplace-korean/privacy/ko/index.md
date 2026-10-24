@@ -5,7 +5,7 @@ lang: ko
 ---
 # 개인정보처리방침
 
-시행일: 2026년 10월 23일.
+시행일: 2026년 10월 24일.
 
 대상 앱: **Workplace Korean: Learn Korean(한국일터, Practical Workplace Korean)**. Android 패키지: `com.minororbit.workplacekorean`. 개발자 및 문의 연락처: **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**. 이 문서는 이 앱에만 적용됩니다.
 

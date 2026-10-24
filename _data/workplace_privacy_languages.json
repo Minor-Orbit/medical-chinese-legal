@@ -1,0 +1,92 @@
+[
+  {
+    "tag": "en",
+    "name": "English",
+    "path": "/workplace-korean/privacy/"
+  },
+  {
+    "tag": "ko",
+    "name": "한국어",
+    "path": "/workplace-korean/privacy/ko/"
+  },
+  {
+    "tag": "ja",
+    "name": "日本語",
+    "path": "/workplace-korean/privacy/ja/"
+  },
+  {
+    "tag": "zh-Hant",
+    "name": "繁體中文",
+    "path": "/workplace-korean/privacy/zh-Hant/"
+  },
+  {
+    "tag": "zh-Hans",
+    "name": "简体中文",
+    "path": "/workplace-korean/privacy/zh-Hans/"
+  },
+  {
+    "tag": "vi",
+    "name": "Tiếng Việt",
+    "path": "/workplace-korean/privacy/vi/"
+  },
+  {
+    "tag": "id",
+    "name": "Bahasa Indonesia",
+    "path": "/workplace-korean/privacy/id/"
+  },
+  {
+    "tag": "ne",
+    "name": "नेपाली",
+    "path": "/workplace-korean/privacy/ne/"
+  },
+  {
+    "tag": "km",
+    "name": "ខ្មែរ",
+    "path": "/workplace-korean/privacy/km/"
+  },
+  {
+    "tag": "my",
+    "name": "မြန်မာ",
+    "path": "/workplace-korean/privacy/my/"
+  },
+  {
+    "tag": "th",
+    "name": "ไทย",
+    "path": "/workplace-korean/privacy/th/"
+  },
+  {
+    "tag": "uz",
+    "name": "O‘zbekcha",
+    "path": "/workplace-korean/privacy/uz/"
+  },
+  {
+    "tag": "mn",
+    "name": "Монгол",
+    "path": "/workplace-korean/privacy/mn/"
+  },
+  {
+    "tag": "si",
+    "name": "සිංහල",
+    "path": "/workplace-korean/privacy/si/"
+  },
+  {
+    "tag": "lo",
+    "name": "ລາວ",
+    "path": "/workplace-korean/privacy/lo/"
+  },
+  {
+    "tag": "bn",
+    "name": "বাংলা",
+    "path": "/workplace-korean/privacy/bn/"
+  },
+  {
+    "tag": "ur",
+    "name": "اردو",
+    "path": "/workplace-korean/privacy/ur/"
+  },
+  {
+    "tag": "hi",
+    "name": "हिन्दी",
+    "path": "/workplace-korean/privacy/hi/"
+  }
+]
