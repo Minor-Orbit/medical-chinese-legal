@@ -7,7 +7,7 @@ policy_language: ne
 
 # गोपनीयता जानकारी
 
-2026-10-24 · K-pop Pocket Korean (`com.minororbit.fankorean`)
+2026-10-28 · K-pop Pocket Korean (`com.minororbit.fankorean`)
 
 यो नेपाली सारांश हो। विस्तृत अङ्ग्रेजी नीतिमा थप जानकारी छ।
 
@@ -28,3 +28,6 @@ Google AdMob, Google UMP र Unity Ads विज्ञापन सेवाह�
 [Full privacy policy — English](../)
 
 Contact: [davidleepub@gmail.com](mailto:davidleepub@gmail.com)
+
+
+विज्ञापनका सेटिङहरू समयसमयमा GitHub Pages बाट डाउनलोड हुन्छन्। यो अनुरोधमा GitHub ले तपाईंको IP ठेगाना प्रशोधन गर्न सक्छ; तपाईंका सिकाइ अभिलेख र अडियो रेकर्डिङहरू पठाइँदैनन्।

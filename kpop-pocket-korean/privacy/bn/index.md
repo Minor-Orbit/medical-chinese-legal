@@ -7,7 +7,7 @@ policy_language: bn
 
 # গোপনীয়তার তথ্য
 
-2026-10-24 · K-pop Pocket Korean (`com.minororbit.fankorean`)
+2026-10-28 · K-pop Pocket Korean (`com.minororbit.fankorean`)
 
 এটি বাংলা সারসংক্ষেপ। বিস্তারিত জানতে সম্পূর্ণ ইংরেজি নীতি পড়ুন।
 
@@ -28,3 +28,6 @@ policy_language: bn
 [Full privacy policy — English](../)
 
 Contact: [davidleepub@gmail.com](mailto:davidleepub@gmail.com)
+
+
+বিজ্ঞাপনের সেটিংস নির্দিষ্ট বিরতিতে GitHub Pages থেকে ডাউনলোড করা হয়। এই অনুরোধের জন্য GitHub আপনার IP ঠিকানা প্রক্রিয়া করতে পারে; আপনার শেখার রেকর্ড বা অডিও রেকর্ডিং পাঠানো হয় না।

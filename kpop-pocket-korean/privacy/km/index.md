@@ -7,7 +7,7 @@ policy_language: km
 
 # ព័ត៌មានឯកជនភាព
 
-2026-10-24 · K-pop Pocket Korean (`com.minororbit.fankorean`)
+2026-10-28 · K-pop Pocket Korean (`com.minororbit.fankorean`)
 
 នេះជាសេចក្តីសង្ខេបជាភាសាខ្មែរ។ សូមអានគោលការណ៍ពេញលេញជាភាសាអង់គ្លេសសម្រាប់ព័ត៌មានលម្អិត។
 
@@ -28,3 +28,6 @@ policy_language: km
 [Full privacy policy — English](../)
 
 Contact: [davidleepub@gmail.com](mailto:davidleepub@gmail.com)
+
+
+កម្មវិធីទាញយកការកំណត់ផ្សាយពាណិជ្ជកម្មពី GitHub Pages ជាប្រចាំ។ GitHub អាចដំណើរការអាសយដ្ឋាន IP របស់អ្នកសម្រាប់សំណើនេះ។ ប្រវត្តិសិក្សា និងឯកសារថតសំឡេងរបស់អ្នកមិនត្រូវបានផ្ញើទេ។

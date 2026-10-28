@@ -7,7 +7,7 @@ policy_language: en
 
 # Privacy policy
 
-Effective date: October 23, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, across its guide languages. The developer's public support contact is **davidleepub@gmail.com**.
+Effective date: October 28, 2026. This policy describes K-pop Pocket Korean for Android, package `com.minororbit.fankorean`, across its guide languages. The developer's public support contact is **davidleepub@gmail.com**.
 
 ## 1. Learning on your device
 
@@ -25,7 +25,7 @@ The app does not send practice recordings to the developer, Google advertising s
 
 ## 4. Android text-to-speech
 
-Learning expressions use pre-generated Google Cloud Text-to-Speech audio files bundled with the app. The developer generated these files from the app's fixed curriculum, not from user recordings or learning records. Playback does not call the Google Cloud Text-to-Speech API. Voice choices for expressions and individual dialogues are stored locally.
+Learning expressions use pre-generated Google Cloud Text-to-Speech audio files bundled with the app by default. In audio settings or a practice screen, you can instead choose a compatible installed Android Korean text-to-speech voice. This alternative uses the device speech engine, not the Google Cloud TTS generation API. The developer generated these files from the app's fixed curriculum, not from user recordings or learning records. Playback does not call the Google Cloud Text-to-Speech API. Voice choices for expressions and individual dialogues are stored locally.
 
 Some Hangul practice sounds and helper text use an installed Android text-to-speech engine. The app selects installed Korean voices that the engine identifies as not requiring a network connection. Installing an engine or downloading a voice may require internet access. The engine is separate software and may process its own diagnostic or service data under its provider's policy. The app does not send your practice recordings to that engine. Device speech tools are available in audio help.
 
@@ -73,3 +73,8 @@ If you email support, we receive your email address and the information you choo
 For privacy questions, contact **[davidleepub@gmail.com](mailto:davidleepub@gmail.com)**. We may revise this policy when app features or service practices change and will update the effective date. Material changes will also be described through appropriate app or release information.
 
 [Usage & content notices](../notices/)
+
+## Remote advertising settings
+
+
+Advertising settings are periodically downloaded from GitHub Pages. GitHub may process your IP address for this request; your learning records and recordings are not sent. The app uses one fixed HTTPS address and checks at most once every six hours on foreground entry. Settings are verified against the existing ads-v1 public key before use. Failed downloads keep the last verified settings. Only ad-network activation and the initial request weight can change; ad IDs, consent requirements and executable code cannot. Diagnostic event codes and ad-failure times remain on the device and are not uploaded by this feature.
