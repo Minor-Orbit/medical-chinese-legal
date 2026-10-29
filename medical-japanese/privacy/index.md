@@ -9,8 +9,8 @@ title: 개인정보처리방침 / Privacy Policy / プライバシーポリシ�
 
 # プライバシーポリシー
 
-適用開始日：本アプリの初回公開日（本改定は2026年10月20日から適用）
-最終更新日：2026年10月23日（Unity Ads対応版の広告処理を追記）
+適用開始日：本アプリの初回公開日（本改定は2026年10月29日から適用）
+最終更新日：2026年10月29日（公開広告設定の取得と広告切替処理を追記）
 
 Minor Orbit（以下「当方」）が提供する `医療韓国語`（韓国語名：`의료 일본어 - 병원 코디·통역 연습`、英語名：`Medical Japanese`、パッケージ名：`com.minororbit.medicaljapanese`、以下「本アプリ」）は、日本語から韓国語、韓国語または英語から日本語を学ぶ語学学習アプリです。会員登録は不要で、学習情報を保存する当方運営のサーバーはありません。本ポリシーでは、本アプリにおける利用者情報の取扱いについて説明します。
 
@@ -43,7 +43,9 @@ Minor Orbit（以下「当方」）が提供する `医療韓国語`（韓国語
 
 UnityのSDK公開資料は購入履歴も広告・分析目的の取扱い対象として挙げています。本アプリに購入機能や購入履歴送信APIがないことだけを理由に、SDKによる処理が一切ないと保証するものではありません。
 
-Unity Ads対応版では、バナーと任意のリワード広告にUnity Ads SDKを使用します。AdMobの配信を停止している間はUnityのみを利用し、AdMobの復旧を確認して有効にした版では両サービスを利用する場合があります。既存のAdMob版の取扱いは下記の説明も適用されます。Google UMPによる利用可否を確認し、Unityにパーソナライズ広告への同意を勝手に付与することはありません。
+Unity Ads対応版では、バナーと任意のリワード広告にUnity Ads SDKを使用します。使用する広告サービスはアプリの版と検証済みの公開設定により異なり、有効かつ利用可能な場合にUnityまたはAdMobへリクエストします。設定がない場合の初期値はUnity有効・AdMob無効です。設定で同意を回避することはなく、Google UMPによる利用可否を確認し、Unityにパーソナライズ広告への同意を勝手に付与しません。
+
+広告設定対応版は、前面に戻った際に最大6時間に1回、GitHub Pagesの固定HTTPS URLから署名付きの公開設定を取得します。通信先は [公開設定ファイル](https://minor-orbit.github.io/medical-chinese-legal/config/ads.json) です。リクエストには学習情報・録音・利用者固有ID・同意文字列を付加しませんが、配信元は通常のHTTP通信としてIPアドレスやリクエスト情報を処理する場合があります。[GitHubのプライバシー声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)をご確認ください。検証済み設定と取得試行時刻は端末内に保存し、オフラインでは最後の正常な設定を有効期限なしで使用します。設定の反映は各端末の次の確認時であり、即時ではありません。開発者の広告診断は個人情報を含まない端末内ログキャットのみで、ログアップロード機能はありません。
 
 Unityとそのパートナーは、広告配信、測定、分析、サービスの提供、不正防止のため、IPアドレスに基づくおおよその地域、広告・端末その他の識別子、広告内の表示・タップ、診断情報を収集・共有する場合があります。当方は学習単語、練習録音、患者情報をUnityへ送信しません。アプリ内購入や購入履歴の送信は実装していません。Unity側のデータ保持、削除およびプライバシー選択は[Unityのプライバシーポリシー](https://unity.com/legal/privacy-policy)および[プライバシー管理窓口](https://unity.com/legal/privacy-policy#your-choices)をご確認ください。広告のプライバシーアイコンも利用できます。ローカルの学習記録を削除しても、広告提供者の記録が自動的に削除されるわけではありません。
 
@@ -100,8 +102,8 @@ Googleおよび広告パートナーは、広告の配信・測定・分析・�
 
 ## 한국어 개인정보처리방침
 
-최초 시행: 앱 최초 출시일 / 이번 개정 시행: 2026년 10월 20일
-최종 개정: 2026년 10월 23일(Unity Ads 지원 버전의 광고 처리 추가)
+최초 시행: 앱 최초 출시일 / 이번 개정 시행: 2026년 10월 29일
+최종 개정: 2026년 10월 29일(공개 광고 설정 조회 및 광고 전환 처리 추가)
 
 Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 코디·통역 연습`(영어 이름: `Medical Japanese`, 일본어 이름: `医療韓国語`, 패키지명: `com.minororbit.medicaljapanese`, 이하 “앱”)은 한국어·영어로 일본어를 배우고 일본어로 한국어를 배우는 언어 학습 앱입니다. 회원가입은 없으며 학습정보를 저장하는 개발자 운영 서버도 없습니다. 이 방침에서는 앱의 사용자 정보 처리 방법을 설명합니다.
 
@@ -134,7 +136,9 @@ Minor Orbit(이하 “개발자”)가 제공하는 `의료 일본어 - 병원 �
 
 Unity SDK 공개 문서는 구매 내역도 광고·분석 목적의 처리 항목으로 명시합니다. 이 앱에 구매 기능이나 구매 이력 전송 API가 없다는 이유만으로 SDK가 해당 정보를 전혀 처리하지 않는다고 보장하지 않습니다.
 
-Unity Ads 지원 버전은 배너와 선택형 보상 광고에 Unity Ads SDK를 사용합니다. AdMob 중지 중에는 Unity만 사용하며, 복구를 확인하고 활성화한 버전에서는 두 서비스를 사용할 수 있습니다. 기존 AdMob 버전에는 아래 설명도 적용됩니다. Google UMP로 광고 요청 가능 여부를 확인하며, Unity에 맞춤형 광고 동의를 임의로 부여하지 않습니다.
+Unity Ads 지원 버전은 배너와 선택형 보상 광고에 Unity Ads SDK를 사용합니다. 사용하는 광고 서비스는 앱 버전과 검증된 공개 설정에 따라 달라지며, 활성화되고 이용 가능한 경우 Unity 또는 AdMob에 요청합니다. 유효한 설정이 없으면 기본값은 Unity 켜짐·AdMob 꺼짐입니다. 원격 설정으로 동의 절차를 우회하지 않으며 Google UMP로 광고 요청 가능 여부를 확인하고, Unity에 맞춤형 광고 동의를 임의로 부여하지 않습니다.
+
+광고 설정 지원 버전은 앱 전면 복귀 시 최대 6시간에 한 번 GitHub Pages의 고정 HTTPS 주소에서 서명된 공개 설정을 받습니다. 통신 대상은 [공개 설정 파일](https://minor-orbit.github.io/medical-chinese-legal/config/ads.json)입니다. 요청에 학습정보·녹음·사용자 고유 ID·동의 문자열을 덧붙이지 않지만, 호스팅 제공자는 일반 HTTP 통신 과정에서 IP 주소와 요청 정보를 처리할 수 있습니다. [GitHub 개인정보처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)을 참고하십시오. 검증된 설정과 조회 시도 시각은 기기 내부에 저장하며, 오프라인에서는 마지막 정상 설정을 기한 없이 유지합니다. 변경은 기기의 다음 확인 시 적용되며 즉시 반영을 보장하지 않습니다. 개발자 광고 진단은 개인정보가 없는 기기 내 로그캣 기록뿐이며 로그 업로드 기능은 없습니다.
 
 Unity와 파트너는 광고 제공·측정·분석·서비스 제공·부정 사용 방지를 위해 IP 기반 대략적 위치, 광고·기기 등 식별자, 광고 안의 표시·탭, 진단정보를 수집·공유할 수 있습니다. 개발자는 학습 단어, 연습 녹음, 환자정보를 Unity로 전송하지 않습니다. 앱 내 구매나 구매 이력 전송은 구현하지 않았습니다. Unity의 보유기간·삭제·개인정보 선택은 [Unity 개인정보처리방침](https://unity.com/legal/privacy-policy)과 [개인정보 관리 안내](https://unity.com/legal/privacy-policy#your-choices)를 확인해 주십시오. 광고의 개인정보 아이콘도 이용할 수 있습니다. 기기 학습기록 삭제가 광고 제공자의 기록까지 자동 삭제하는 것은 아닙니다.
 
@@ -191,7 +195,7 @@ Google과 광고 파트너는 광고 제공·측정·분석·부정 사용 방�
 
 ## English Privacy Policy
 
-Originally effective on the app's first release. Last updated: **23 October 2026**, adding disclosures for the Unity Ads-enabled release.
+Originally effective on the app's first release. This revision is effective and last updated on **29 October 2026**, adding public ad-settings requests and provider switching.
 
 Minor Orbit provides **Medical Japanese**, also named **의료 일본어 - 병원 코디·통역 연습** in Korean and **医療韓国語** in Japanese (Android package: `com.minororbit.medicaljapanese`). You can learn Japanese through Korean or English and learn Korean through Japanese. No account registration is required. Minor Orbit does not operate a server that stores your learning records. Third-party advertising and text-to-speech services may process information as described below.
 
@@ -215,7 +219,9 @@ The app passes the text to be spoken to the Android text-to-speech engine select
 
 Unity's SDK disclosure also lists purchase history for advertising and analytics. The absence of an in-app purchasing feature or a purchase-history API in this app is not a guarantee that the SDK never processes such information.
 
-Unity-enabled releases use the Unity Ads SDK for banners and optional rewarded ads. While AdMob serving is suspended, only Unity ad inventory is requested. A release enabled after confirmed AdMob recovery may use both providers. Existing AdMob releases are also covered by the disclosure below. Google UMP gates ad-request eligibility; the app does not assert personalized-ad consent to Unity on your behalf.
+Unity-enabled releases use the Unity Ads SDK for banners and optional rewarded ads. Provider use depends on the app version and verified public settings: requests go only to enabled, available providers. Without a valid setting, the default is Unity enabled and AdMob disabled. Remote settings cannot bypass consent. Google UMP gates ad-request eligibility; the app does not assert personalized-ad consent to Unity on your behalf.
+
+Settings-enabled releases fetch a signed public file from a fixed GitHub Pages HTTPS endpoint at foreground entry, at most once per six hours: [public ad settings](https://minor-orbit.github.io/medical-chinese-legal/config/ads.json). Requests do not append learning data, recordings, unique user IDs or consent strings. The host may process IP addresses and ordinary HTTP request metadata; see [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Verified settings and fetch-attempt times are stored on-device. Offline devices retain the last valid settings indefinitely. Changes apply on a device's next eligible check, not immediately. Developer ad diagnostics use local logcat with no personal information; no log-upload feature is provided.
 
 Unity and its partners may collect/share IP-derived approximate location, advertising/device and other identifiers, ad views/taps and diagnostics for advertising, measurement, analytics, service operation and fraud prevention. Minor Orbit does not send learning vocabulary, practice recordings or patient information to Unity. In-app purchases and purchase-history transmission are not implemented. For Unity's retention, deletion and privacy choices, see its [Privacy Policy](https://unity.com/legal/privacy-policy) and [privacy choices](https://unity.com/legal/privacy-policy#your-choices). You may also use the privacy icon within an ad. Deleting local learning records does not automatically delete advertising providers' records.
 
