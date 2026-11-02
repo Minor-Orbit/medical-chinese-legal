@@ -49,6 +49,9 @@ def check():
         for number in ['80','20']:
             assert re.search(r'(?:%'+number+r'|'+number+r'\s*%)',ad_text), (code,number)
         assert '\ufffd' not in html and 'chageun-' not in html
+        assert b.BRANDS[code]['title'] in ''.join(p.text), code
+        assert b.BRANDS[code]['previousLabel'] + ': Pocket Korean: Korea Travel' in ''.join(p.text), code
+        assert all('Pocket Korean: Korea Travel' not in text for _,text in data[code]['sections']), code
         assert all(s not in html for s in ['TODO','TBD','Lorem ipsum','sk_live_'])
         # Data sent to each provider must not be described as entirely absent.
         assert len(data[code]['sections'][4][1]) > 350, code

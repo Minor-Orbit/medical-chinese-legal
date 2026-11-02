@@ -12,7 +12,8 @@ BASE = ROOT / 'pocket-korean-travel' / 'privacy'
 LANGUAGES = ['en', 'ja', 'zh-Hant', 'zh-Hans', 'es', 'pt-BR', 'fr', 'de',
              'tr', 'id', 'vi', 'th', 'hi', 'ne', 'km', 'bn']
 DATE = '2026-11-02'
-APP = 'Pocket Korean: Korea Travel'
+APP = 'HANTEUM: Travel Korean'
+BRANDS = json.loads((BASE/'brand-names.json').read_text(encoding='utf-8'))
 CONTACT = 'davidleepub@gmail.com'
 PUBLIC = 'https://minor-orbit.github.io/medical-chinese-legal/pocket-korean-travel/privacy/'
 
@@ -74,6 +75,8 @@ def policies():
 
 def page(language, data, entry=False):
     p = data[language]
+    app = BRANDS[language]['title']
+    previous = BRANDS[language]['previousLabel']
     prefix = './' if entry else '../'
     nav = '\n'.join(
         f'<li><a href="{prefix}{code}/" lang="{code}" hreflang="{code}"'
@@ -88,12 +91,13 @@ def page(language, data, entry=False):
     return f'''<!doctype html>
 <html lang="{language}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="referrer" content="no-referrer"><title>{escape(p['title'])} — {escape(APP)}</title>
+<meta name="referrer" content="no-referrer"><title>{escape(p['title'])} — {escape(app)}</title>
 <link rel="canonical" href="{PUBLIC}{language}/">{alternate}
 <link rel="alternate" hreflang="x-default" href="{PUBLIC}"><style>{CSS}</style>{script}</head>
 <body><main>
 <nav aria-label="{escape(p['language'], quote=True)}"><strong>{escape(p['language'])}</strong><ul>{nav}</ul></nav>
-<h1>{escape(p['title'])}</h1><p class="meta"><strong>{escape(APP)}</strong> · Minor Orbit<br>
+<h1>{escape(p['title'])}</h1><p class="meta"><strong>{escape(app)}</strong> · Minor Orbit<br>
+{escape(previous)}: Pocket Korean: Korea Travel<br>
 <code>com.minororbit.koreatravel</code><br>{escape(p['updated'])}: <time datetime="{DATE}">{DATE}</time><br>
 {escape(p['contact'])}: <a href="mailto:{CONTACT}">{CONTACT}</a></p>
 {sections}

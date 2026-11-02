@@ -58,3 +58,12 @@ Official references:
 
 Publication and live HTTP verification are recorded after deployment, separately
 from the local validation above.
+
+## HANTEUM branding preparation (not yet published)
+
+After the initial localized-policy publication, the user requested the HANTEUM
+rebrand. Local policy sources/pages now use the16 localized tourism app names
+and translated Previous name labels. Package, root URL, locale paths and data
+disclosures are unchanged. The updated branding pages pass structural checks;
+no rebrand commit, push or Pages deployment has been performed yet. The prior
+publication record above refers to the original Pocket-named policies.
