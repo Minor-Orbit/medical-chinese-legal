@@ -11,8 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'pocket-korean-travel' / 'privacy'
 LANGUAGES = ['en', 'ja', 'zh-Hant', 'zh-Hans', 'es', 'pt-BR', 'fr', 'de',
              'tr', 'id', 'vi', 'th', 'hi', 'ne', 'km', 'bn']
-DATE = '2026-11-02'
-APP = 'HANTEUM: Travel Korean'
+DATE = '2026-11-07'
+APP = 'Korea Travel: Guide & Korean'
 BRANDS = json.loads((BASE/'brand-names.json').read_text(encoding='utf-8'))
 CONTACT = 'davidleepub@gmail.com'
 PUBLIC = 'https://minor-orbit.github.io/medical-chinese-legal/pocket-korean-travel/privacy/'
@@ -97,7 +97,7 @@ def page(language, data, entry=False):
 <body><main>
 <nav aria-label="{escape(p['language'], quote=True)}"><strong>{escape(p['language'])}</strong><ul>{nav}</ul></nav>
 <h1>{escape(p['title'])}</h1><p class="meta"><strong>{escape(app)}</strong> · Minor Orbit<br>
-{escape(previous)}: Pocket Korean: Korea Travel<br>
+{escape(previous)}: HANTEUM: Travel Korean / Pocket Korean: Korea Travel<br>
 <code>com.minororbit.koreatravel</code><br>{escape(p['updated'])}: <time datetime="{DATE}">{DATE}</time><br>
 {escape(p['contact'])}: <a href="mailto:{CONTACT}">{CONTACT}</a></p>
 {sections}

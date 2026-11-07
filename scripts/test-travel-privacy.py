@@ -40,7 +40,7 @@ def check():
         assert len([a for a in language_links if a.get('aria-current') == 'page']) == 1
         for a in language_links:
             assert (path.parent/a['href']/'index.html').resolve().is_file(), (code,a)
-        for expected in ['com.minororbit.koreatravel','Minor Orbit','2026-11-02',
+        for expected in ['com.minororbit.koreatravel','Minor Orbit','2026-11-07',
                          'davidleepub@gmail.com','Unity','AdMob','GitHub','HANTEUM',
                          '4.21.0','25.5.0']:
             assert expected in ''.join(p.text), (code,expected)
@@ -50,7 +50,7 @@ def check():
             assert re.search(r'(?:%'+number+r'|'+number+r'\s*%)',ad_text), (code,number)
         assert '\ufffd' not in html and 'chageun-' not in html
         assert b.BRANDS[code]['title'] in ''.join(p.text), code
-        assert b.BRANDS[code]['previousLabel'] + ': Pocket Korean: Korea Travel' in ''.join(p.text), code
+        assert b.BRANDS[code]['previousLabel'] + ': HANTEUM: Travel Korean / Pocket Korean: Korea Travel' in ''.join(p.text), code
         assert all('Pocket Korean: Korea Travel' not in text for _,text in data[code]['sections']), code
         assert all(s not in html for s in ['TODO','TBD','Lorem ipsum','sk_live_'])
         # Data sent to each provider must not be described as entirely absent.

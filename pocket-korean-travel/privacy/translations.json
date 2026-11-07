@@ -1,70 +1,230 @@
 {
   "en": {
-    "name": "English", "title": "Privacy policy", "language": "Language", "updated": "Effective date", "contact": "Privacy contact",
+    "name": "English",
+    "title": "Privacy policy",
+    "language": "Language",
+    "updated": "Effective date",
+    "contact": "Privacy contact",
     "sections": [
-      ["About this app", "HANTEUM: Travel Korean (com.minororbit.koreatravel), by Minor Orbit, is for adult travelers. It has no account or developer-operated learning server. Lessons and discovery-map data are bundled. We do not add a separate developer analytics or crash-reporting service. Advertising SDKs, speech engines and external services have their own data processing."],
-      ["Information stored on your device", "Private app storage holds saved phrases, lesson and Hangul progress, quiz results, preferences, use dates and review-reminder choices, K-pop recommendation choices, ad consent, banner-pause times, local ad counters and verified ad settings. These learning records are not uploaded to us. The app cannot tell whether you have posted a store review. Local ad diagnostics contain result categories and numeric codes, not recordings or learning text; the app does not upload these logs."],
-      ["Optional microphone recording", "Microphone access is requested only for practice recording; declining does not block lessons. Recordings last up to 30 seconds. Save keeps the draft and replaces the saved recording for that phrase. You can delete recordings in the app. Audio is not uploaded to us, advertising services or an AI service; there is no speech recognition or automatic pronunciation scoring."],
-      ["MP3 playback and Android speech", "Bundled MP3s play locally without a speech-generation API call. Android text-to-speech can be selected or used if a recording is unavailable. Only fixed lesson text, not microphone recordings, is passed to the installed engine. Network use, voice downloads and diagnostics depend on that engine and provider. The app does not generate speech through Google Cloud TTS, fal.ai or ElevenLabs APIs during use."],
-      ["Advertising and provider data", "The app includes direct Unity Ads SDK 4.21.0 and Google AdMob SDK 25.5.0 with Google UMP. Defaults enable Unity and disable AdMob; verified remote settings can change enabled networks. If both are enabled and ready, initial requests select Unity 80% and AdMob 20%, with at most one fallback. This is not an impression guarantee. Unity is given contextual-only privacy flags; this does not mean no data is processed. Providers collect or share IP-derived approximate location, device/account or personal identifiers, app/ad interactions and diagnostics for advertising, measurement, functionality and fraud prevention. Unity also lists purchase history; this app has no in-app purchases and does not send learning records or recordings to either provider. Other app-activity collection depends on Unity's Acquire Optimization setting. Provider disclosures are linked below."],
-      ["Advertising choices", "Google UMP checks whether ads may be requested and shows a consent form where required. Settings shows ad privacy options when required. Android advertising-ID controls and Unity ad privacy controls offer additional choices, including provider-managed deletion requests. An optional rewarded video pauses banners for 2 hours after confirmed completion. Lessons remain available if you decline or skip. Pausing banners does not promise that all SDK processing stops."],
-      ["Signed remote settings and GitHub", "In the foreground the app checks a fixed HTTPS file on GitHub Pages at most once every 6 hours. GitHub receives connection data such as IP address and request metadata, not learning history or recordings. The app verifies the signature, app identity, version and permitted values. Settings only control ad-network enablement and initial weights, not code, arbitrary URLs, ad IDs or consent bypass. The last verified settings stay locally without expiry if offline or verification fails. This policy is also hosted on GitHub Pages."],
-      ["Maps, learning websites and other links", "The bundled map does not request GPS or provide live navigation. Opening Google Maps can send an attraction's name or coordinates, not your device location. Tourism, photo-source, speech-provider, HANTEUM Hangul/Korean and store links open external services, which may process connection data under their own policies. HANTEUM links include a supported language and course path, not your identity or learning records. Website progress is separate from app progress."],
-      ["Sharing, reviews and exported files", "Share app sends only the displayed promotional text and store link to the sharing app you choose; it does not attach recordings or learning history. Posting a review or opening the recommended K-pop app uses Google Play or your browser. A map-license ZIP exported through Android's document picker contains map data and attributions, not personal learning data. A chosen cloud document provider may upload that file."],
-      ["Retention and deletion", "Remove saved phrases and recordings with the app controls. Android Settings → Apps → HANTEUM: Travel Korean → Storage → Clear storage, or uninstalling, removes local progress, preferences, recordings, reminder choices and banner-pause records. Automatic Android backup and app-data transfer are disabled by the app's backup rules. Exported files and speech-engine downloads must be managed separately. We cannot remotely retrieve device-only data; providers manage retention and deletion of their own data."],
-      ["Security, international processing and rights", "Remote settings use HTTPS; Google and Unity state their SDK data is encrypted in transit. Private Android storage is used; additional end-to-end encryption is not claimed. Providers may process data outside your country under their policies. Privacy rights depend on applicable law; you may contact us about access, correction, deletion or objections, and contact the relevant provider for its data. UI language or distribution-country restrictions do not waive your rights."],
-      ["Support, children and this website", "Support email reveals your email address and what you send; we use it to answer and resolve requests and retain it as necessary for support and applicable obligations. Contact us to request deletion, subject to those obligations. Do not send passwords or unnecessary private recordings. The app is not designed for children and does not collect age profiles. This policy site has no added analytics, advertising or forms; its entry page uses browser language locally to choose a translation, and you can switch languages. Changes are shown with a new effective date. Contact: davidleepub@gmail.com."]
+      [
+        "About this app",
+        "Korea Travel: Guide & Korean (com.minororbit.koreatravel), by Minor Orbit, is for adult travelers. It has no account or developer-operated learning server. Lessons and discovery-map data are bundled. We do not add a separate developer analytics or crash-reporting service. Advertising SDKs, speech engines and external services have their own data processing."
+      ],
+      [
+        "Information stored on your device",
+        "Private app storage holds saved phrases, lesson and Hangul progress, quiz results, preferences, use dates and review-reminder choices, K-pop recommendation choices, ad consent, banner-pause times, local ad counters and verified ad settings. These learning records are not uploaded to us. The app cannot tell whether you have posted a store review. Local ad diagnostics contain result categories and numeric codes, not recordings or learning text; the app does not upload these logs."
+      ],
+      [
+        "Optional microphone recording",
+        "Microphone access is requested only for practice recording; declining does not block lessons. Recordings last up to 30 seconds. Save keeps the draft and replaces the saved recording for that phrase. You can delete recordings in the app. Audio is not uploaded to us, advertising services or an AI service; there is no speech recognition or automatic pronunciation scoring."
+      ],
+      [
+        "MP3 playback and Android speech",
+        "Bundled MP3s play locally without a speech-generation API call. Android text-to-speech can be selected or used if a recording is unavailable. Only fixed lesson text, not microphone recordings, is passed to the installed engine. Network use, voice downloads and diagnostics depend on that engine and provider. The app does not generate speech through Google Cloud TTS, fal.ai or ElevenLabs APIs during use."
+      ],
+      [
+        "Advertising and provider data",
+        "The app includes direct Unity Ads SDK 4.21.0 and Google AdMob SDK 25.5.0 with Google UMP. Defaults enable Unity and disable AdMob; verified remote settings can change enabled networks. If both are enabled and ready, initial requests select Unity 80% and AdMob 20%, with at most one fallback. This is not an impression guarantee. Unity is given contextual-only privacy flags; this does not mean no data is processed. Providers collect or share IP-derived approximate location, device/account or personal identifiers, app/ad interactions and diagnostics for advertising, measurement, functionality and fraud prevention. Unity also lists purchase history; this app has no in-app purchases and does not send learning records or recordings to either provider. Other app-activity collection depends on Unity's Acquire Optimization setting. Provider disclosures are linked below."
+      ],
+      [
+        "Advertising choices",
+        "Google UMP checks whether ads may be requested and shows a consent form where required. Settings shows ad privacy options when required. Android advertising-ID controls and Unity ad privacy controls offer additional choices, including provider-managed deletion requests. An optional rewarded video pauses banners for 2 hours after confirmed completion. Lessons remain available if you decline or skip. Pausing banners does not promise that all SDK processing stops."
+      ],
+      [
+        "Signed remote settings and GitHub",
+        "In the foreground the app checks a fixed HTTPS file on GitHub Pages at most once every 6 hours. GitHub receives connection data such as IP address and request metadata, not learning history or recordings. The app verifies the signature, app identity, version and permitted values. Settings only control ad-network enablement and initial weights, not code, arbitrary URLs, ad IDs or consent bypass. The last verified settings stay locally without expiry if offline or verification fails. This policy is also hosted on GitHub Pages."
+      ],
+      [
+        "Maps, learning websites and other links",
+        "The bundled map does not request GPS or provide live navigation. Opening Google Maps can send an attraction's name or coordinates, not your device location. Tourism, photo-source, speech-provider, HANTEUM Hangul/Korean and store links open external services, which may process connection data under their own policies. HANTEUM links include a supported language and course path, not your identity or learning records. Website progress is separate from app progress."
+      ],
+      [
+        "Sharing, reviews and exported files",
+        "Share app sends only the displayed promotional text and store link to the sharing app you choose; it does not attach recordings or learning history. Posting a review or opening the recommended K-pop app uses Google Play or your browser. A map-license ZIP exported through Android's document picker contains map data and attributions, not personal learning data. A chosen cloud document provider may upload that file."
+      ],
+      [
+        "Retention and deletion",
+        "Remove saved phrases and recordings with the app controls. Android Settings → Apps → Korea Travel: Guide & Korean → Storage → Clear storage, or uninstalling, removes local progress, preferences, recordings, reminder choices and banner-pause records. Automatic Android backup and app-data transfer are disabled by the app's backup rules. Exported files and speech-engine downloads must be managed separately. We cannot remotely retrieve device-only data; providers manage retention and deletion of their own data."
+      ],
+      [
+        "Security, international processing and rights",
+        "Remote settings use HTTPS; Google and Unity state their SDK data is encrypted in transit. Private Android storage is used; additional end-to-end encryption is not claimed. Providers may process data outside your country under their policies. Privacy rights depend on applicable law; you may contact us about access, correction, deletion or objections, and contact the relevant provider for its data. UI language or distribution-country restrictions do not waive your rights."
+      ],
+      [
+        "Support, children and this website",
+        "Support email reveals your email address and what you send; we use it to answer and resolve requests and retain it as necessary for support and applicable obligations. Contact us to request deletion, subject to those obligations. Do not send passwords or unnecessary private recordings. The app is not designed for children and does not collect age profiles. This policy site has no added analytics, advertising or forms; its entry page uses browser language locally to choose a translation, and you can switch languages. Changes are shown with a new effective date. Contact: davidleepub@gmail.com."
+      ]
     ]
   },
   "ja": {
-    "name": "日本語", "title": "プライバシーポリシー", "language": "言語", "updated": "適用日", "contact": "プライバシーに関するお問い合わせ",
+    "name": "日本語",
+    "title": "プライバシーポリシー",
+    "language": "言語",
+    "updated": "適用日",
+    "contact": "プライバシーに関するお問い合わせ",
     "sections": [
-      ["アプリについて", "Minor OrbitのHANTEUM: 旅行韓国語（com.minororbit.koreatravel）は、成人旅行者向けです。アカウントや開発者運営の学習サーバーはありません。教材と観光マップのデータはアプリに含まれます。開発者独自の分析・クラッシュ報告サービスは追加していません。広告SDK、音声エンジン、外部サービスはそれぞれデータを処理する場合があります。"],
-      ["端末内に保存する情報", "保存した表現、レッスン・ハングルの進度、クイズ結果、設定、利用日、レビュー案内とK-popおすすめの選択、広告の同意、バナー休止時刻、広告のローカル集計、検証済み広告設定をアプリ専用領域に保存します。学習記録を開発者に送信しません。ストアレビューを投稿済みかは把握できません。ローカル広告ログには結果の分類と数値コードのみを記録し、録音や教材本文を含めず、アップロードしません。"],
-      ["任意のマイク録音", "練習録音を選んだときだけマイク権限を求めます。拒否しても学習できます。録音は最大30秒です。保存すると下書きを保持し、その表現の以前の録音を置き換えます。アプリ内で削除できます。録音を開発者、広告サービス、AIサービスに送信しません。音声認識や自動発音採点は行いません。"],
-      ["MP3とAndroidの読み上げ", "同梱MP3は音声生成APIを呼ばず端末内で再生します。Androidの読み上げを選んだ場合や録音がない場合は、インストール済みエンジンに教材の定型文だけを渡します。マイク録音は渡しません。通信、音声のダウンロード、診断情報の扱いはエンジンと提供元によります。利用中にGoogle Cloud TTS、fal.ai、ElevenLabsのAPIで音声を生成しません。"],
-      ["広告と提供元のデータ処理", "Unity Ads直接SDK 4.21.0とGoogle AdMob SDK 25.5.0、Google UMPを使用します。初期値はUnity有効・AdMob無効で、検証済みリモート設定により変更できます。両方が有効で準備済みなら最初のリクエストはUnity 80%・AdMob 20%で選び、失敗時は最大1回切り替えます。表示比率の保証ではありません。Unityにはコンテキスト広告用の制限フラグを渡しますが、データ処理がなくなるわけではありません。提供元はIP由来のおおよその位置、端末・アカウント等の識別子、アプリ・広告の操作、診断情報を広告、測定、機能提供、不正防止のため収集・共有します。Unityは購入履歴も開示対象としていますが、このアプリにアプリ内購入はなく、学習記録や録音を両社に送りません。その他のアプリ利用情報はUnityのAcquire Optimization設定によります。公式資料は下記リンクから確認できます。"],
-      ["広告に関する選択", "Google UMPが広告リクエストの可否を確認し、必要な場合に同意画面を表示します。必要な場合は設定に広告プライバシーの選択肢が表示されます。Androidの広告ID設定とUnity広告内のプライバシー操作も利用でき、提供元へのデータ削除依頼が可能です。任意の報酬動画を完了し報酬が確認されるとバナーを2時間休止します。拒否・スキップしてもレッスンは使えます。バナー休止はSDK処理の全面停止を意味しません。"],
-      ["署名付き設定とGitHub", "アプリが前面にあるとき、最大6時間に1回、GitHub Pagesの固定HTTPSファイルを確認します。GitHubはIPアドレスやリクエスト情報を受け取りますが、学習記録や録音は送りません。署名、対象アプリ、バージョン、許可値を検証します。設定で変更できるのは広告網の有効状態と最初の選択比率のみで、コード、任意URL、広告ID、同意の回避は配信できません。オフライン・検証失敗時も最後の正常設定を期限なく端末に保持します。この方針ページもGitHub Pagesにあります。"],
-      ["地図・学習サイト・外部リンク", "同梱マップはGPS権限を要求せず、リアルタイム経路案内もしません。Google Mapsを開くと観光地の名称・座標を渡す場合がありますが、端末の現在地ではありません。観光情報、写真出典、音声提供元、HANTEUM Hangul/Korean、ストアのリンク先では各社の方針に従い接続情報等を処理する場合があります。HANTEUMのURLに含まれるのは対応言語とコースのパスで、個人識別情報や学習記録は付けません。サイトの進度はアプリとは別です。"],
-      ["共有・レビュー・書き出し", "アプリ共有では、表示された紹介文とストアリンクだけを選択した共有先へ渡し、録音や学習履歴は添付しません。レビュー投稿やK-popおすすめアプリへの移動にはGoogle Playまたはブラウザを使います。Androidのファイル選択画面から保存する地図ライセンスZIPには地図データと帰属表示のみが含まれます。選んだクラウド保存先がファイルをアップロードする場合があります。"],
-      ["保存期間と削除", "表現や録音はアプリの操作で個別に削除できます。Androidの設定 → アプリ → HANTEUM: 旅行韓国語 → ストレージ → ストレージを消去、またはアンインストールすると、端末内の進度、設定、録音、案内の選択、バナー休止記録を削除します。アプリの規則でAndroid自動バックアップとデータ移行を無効にしています。書き出したファイルと音声エンジンのダウンロードは別途管理してください。端末内だけのデータを開発者が遠隔取得・削除することはできません。提供元のデータの保存・削除は各社が管理します。"],
-      ["安全性・国外処理・権利", "リモート設定はHTTPSを使用し、GoogleとUnityはSDKデータを通信中に暗号化すると説明しています。Android専用保存領域を使いますが、追加のエンドツーエンド暗号化は主張しません。提供元が方針に従い国外で処理する場合があります。権利は適用法によります。開示、訂正、削除、異議等はお問い合わせください。他社のデータは当該提供元へ依頼してください。言語や配信国の制限によりプライバシー権が失われることはありません。"],
-      ["お問い合わせ・子ども・このサイト", "メールで連絡するとメールアドレスと送信内容を受け取り、対応・問題解決と必要な義務のため保持します。削除依頼は法的義務等の範囲内で対応します。パスワードや不要な私的録音は送らないでください。子ども向けに設計しておらず、年齢プロフィールも収集しません。このサイトに独自の分析、広告、入力フォームはありません。入口ページはブラウザ言語を端末内で参照して翻訳を選び、手動でも変更できます。変更時は適用日を更新します。連絡先：davidleepub@gmail.com。"]
+      [
+        "アプリについて",
+        "Minor Orbitの韓国旅行ガイド・旅行韓国語（com.minororbit.koreatravel）は、成人旅行者向けです。アカウントや開発者運営の学習サーバーはありません。教材と観光マップのデータはアプリに含まれます。開発者独自の分析・クラッシュ報告サービスは追加していません。広告SDK、音声エンジン、外部サービスはそれぞれデータを処理する場合があります。"
+      ],
+      [
+        "端末内に保存する情報",
+        "保存した表現、レッスン・ハングルの進度、クイズ結果、設定、利用日、レビュー案内とK-popおすすめの選択、広告の同意、バナー休止時刻、広告のローカル集計、検証済み広告設定をアプリ専用領域に保存します。学習記録を開発者に送信しません。ストアレビューを投稿済みかは把握できません。ローカル広告ログには結果の分類と数値コードのみを記録し、録音や教材本文を含めず、アップロードしません。"
+      ],
+      [
+        "任意のマイク録音",
+        "練習録音を選んだときだけマイク権限を求めます。拒否しても学習できます。録音は最大30秒です。保存すると下書きを保持し、その表現の以前の録音を置き換えます。アプリ内で削除できます。録音を開発者、広告サービス、AIサービスに送信しません。音声認識や自動発音採点は行いません。"
+      ],
+      [
+        "MP3とAndroidの読み上げ",
+        "同梱MP3は音声生成APIを呼ばず端末内で再生します。Androidの読み上げを選んだ場合や録音がない場合は、インストール済みエンジンに教材の定型文だけを渡します。マイク録音は渡しません。通信、音声のダウンロード、診断情報の扱いはエンジンと提供元によります。利用中にGoogle Cloud TTS、fal.ai、ElevenLabsのAPIで音声を生成しません。"
+      ],
+      [
+        "広告と提供元のデータ処理",
+        "Unity Ads直接SDK 4.21.0とGoogle AdMob SDK 25.5.0、Google UMPを使用します。初期値はUnity有効・AdMob無効で、検証済みリモート設定により変更できます。両方が有効で準備済みなら最初のリクエストはUnity 80%・AdMob 20%で選び、失敗時は最大1回切り替えます。表示比率の保証ではありません。Unityにはコンテキスト広告用の制限フラグを渡しますが、データ処理がなくなるわけではありません。提供元はIP由来のおおよその位置、端末・アカウント等の識別子、アプリ・広告の操作、診断情報を広告、測定、機能提供、不正防止のため収集・共有します。Unityは購入履歴も開示対象としていますが、このアプリにアプリ内購入はなく、学習記録や録音を両社に送りません。その他のアプリ利用情報はUnityのAcquire Optimization設定によります。公式資料は下記リンクから確認できます。"
+      ],
+      [
+        "広告に関する選択",
+        "Google UMPが広告リクエストの可否を確認し、必要な場合に同意画面を表示します。必要な場合は設定に広告プライバシーの選択肢が表示されます。Androidの広告ID設定とUnity広告内のプライバシー操作も利用でき、提供元へのデータ削除依頼が可能です。任意の報酬動画を完了し報酬が確認されるとバナーを2時間休止します。拒否・スキップしてもレッスンは使えます。バナー休止はSDK処理の全面停止を意味しません。"
+      ],
+      [
+        "署名付き設定とGitHub",
+        "アプリが前面にあるとき、最大6時間に1回、GitHub Pagesの固定HTTPSファイルを確認します。GitHubはIPアドレスやリクエスト情報を受け取りますが、学習記録や録音は送りません。署名、対象アプリ、バージョン、許可値を検証します。設定で変更できるのは広告網の有効状態と最初の選択比率のみで、コード、任意URL、広告ID、同意の回避は配信できません。オフライン・検証失敗時も最後の正常設定を期限なく端末に保持します。この方針ページもGitHub Pagesにあります。"
+      ],
+      [
+        "地図・学習サイト・外部リンク",
+        "同梱マップはGPS権限を要求せず、リアルタイム経路案内もしません。Google Mapsを開くと観光地の名称・座標を渡す場合がありますが、端末の現在地ではありません。観光情報、写真出典、音声提供元、HANTEUM Hangul/Korean、ストアのリンク先では各社の方針に従い接続情報等を処理する場合があります。HANTEUMのURLに含まれるのは対応言語とコースのパスで、個人識別情報や学習記録は付けません。サイトの進度はアプリとは別です。"
+      ],
+      [
+        "共有・レビュー・書き出し",
+        "アプリ共有では、表示された紹介文とストアリンクだけを選択した共有先へ渡し、録音や学習履歴は添付しません。レビュー投稿やK-popおすすめアプリへの移動にはGoogle Playまたはブラウザを使います。Androidのファイル選択画面から保存する地図ライセンスZIPには地図データと帰属表示のみが含まれます。選んだクラウド保存先がファイルをアップロードする場合があります。"
+      ],
+      [
+        "保存期間と削除",
+        "表現や録音はアプリの操作で個別に削除できます。Androidの設定 → アプリ → 韓国旅行ガイド・旅行韓国語 → ストレージ → ストレージを消去、またはアンインストールすると、端末内の進度、設定、録音、案内の選択、バナー休止記録を削除します。アプリの規則でAndroid自動バックアップとデータ移行を無効にしています。書き出したファイルと音声エンジンのダウンロードは別途管理してください。端末内だけのデータを開発者が遠隔取得・削除することはできません。提供元のデータの保存・削除は各社が管理します。"
+      ],
+      [
+        "安全性・国外処理・権利",
+        "リモート設定はHTTPSを使用し、GoogleとUnityはSDKデータを通信中に暗号化すると説明しています。Android専用保存領域を使いますが、追加のエンドツーエンド暗号化は主張しません。提供元が方針に従い国外で処理する場合があります。権利は適用法によります。開示、訂正、削除、異議等はお問い合わせください。他社のデータは当該提供元へ依頼してください。言語や配信国の制限によりプライバシー権が失われることはありません。"
+      ],
+      [
+        "お問い合わせ・子ども・このサイト",
+        "メールで連絡するとメールアドレスと送信内容を受け取り、対応・問題解決と必要な義務のため保持します。削除依頼は法的義務等の範囲内で対応します。パスワードや不要な私的録音は送らないでください。子ども向けに設計しておらず、年齢プロフィールも収集しません。このサイトに独自の分析、広告、入力フォームはありません。入口ページはブラウザ言語を端末内で参照して翻訳を選び、手動でも変更できます。変更時は適用日を更新します。連絡先：davidleepub@gmail.com。"
+      ]
     ]
   },
   "zh-Hans": {
-    "name": "简体中文", "title": "隐私政策", "language": "语言", "updated": "生效日期", "contact": "隐私联系邮箱",
+    "name": "简体中文",
+    "title": "隐私政策",
+    "language": "语言",
+    "updated": "生效日期",
+    "contact": "隐私联系邮箱",
     "sections": [
-      ["关于本应用", "Minor Orbit 的 HANTEUM: 旅行韩语（com.minororbit.koreatravel）面向成年游客。无需账号，也没有开发者运营的学习服务器。课程和景点地图数据随应用提供。我们未另外接入开发者自己的分析或崩溃报告服务。广告 SDK、语音引擎和外部服务可能各自处理数据。"],
-      ["保存在设备上的信息", "应用私有存储保存收藏的表达、课程及韩文字母进度、测验结果、偏好、使用日期、评价提醒与 K-pop 推荐选项、广告同意、横幅暂停时间、本地广告统计和已验证的广告配置。学习记录不会上传给我们。应用无法得知您是否已发表商店评价。本地广告日志只记录结果类别和数字代码，不含录音或课程正文，应用不会上传这些日志。"],
-      ["可选的麦克风录音", "仅在您选择录音练习时请求麦克风权限，拒绝不会影响其他课程。每段最长30秒。点击保存会保留草稿，并替换该表达之前的录音，可在应用内删除。录音不会上传给开发者、广告或 AI 服务。应用不进行语音识别或自动发音评分。"],
-      ["MP3 与 Android 朗读", "内置 MP3 在本地播放，不调用语音生成 API。选择 Android 文字转语音或某句缺少录音时，应用只向已安装的引擎提供固定课程文字，不提供麦克风录音。网络使用、语音下载和诊断信息取决于引擎及提供商。应用使用过程中不会通过 Google Cloud TTS、fal.ai 或 ElevenLabs API 生成语音。"],
-      ["广告与提供商处理的数据", "应用使用 Unity Ads 直接 SDK 4.21.0、Google AdMob SDK 25.5.0 和 Google UMP。默认启用 Unity、停用 AdMob；经验证的远程配置可更改启用的广告网络。两者均启用并准备就绪时，首次请求按 Unity 80%、AdMob 20%选择，失败时最多切换一次。这不保证实际展示比例。应用向 Unity 传递仅限情境广告的隐私标志，但不代表完全不处理数据。提供商为广告、衡量、功能和反欺诈收集或共享 IP 推算的大致位置、设备或账号等标识符、应用及广告互动和诊断信息。Unity 也列明购买历史；本应用没有应用内购买，不向两家公司发送学习记录或录音。其他应用活动的收集取决于 Unity 的 Acquire Optimization 设置。官方披露链接见下方。"],
-      ["广告隐私选择", "Google UMP 检查是否可请求广告，并在需要时显示同意表单；设置中也会在需要时显示广告隐私选项。您还可使用 Android 广告 ID 设置和 Unity 广告内的隐私选项，包括向提供商请求删除数据。自愿观看奖励视频且确认完成后，横幅暂停2小时。拒绝或跳过不会锁定课程。暂停横幅并不保证所有 SDK 处理停止。"],
-      ["签名配置与 GitHub", "应用在前台使用期间，最多每6小时检查一次 GitHub Pages 上的固定 HTTPS 配置文件。GitHub 会接收 IP 地址和请求信息，不会收到学习历史或录音。应用验证签名、应用标识、版本及允许值。配置只控制广告网络启用状态和首次选择权重，不能传入代码、任意网址、广告 ID 或绕过同意。离线或验证失败时，最后一次有效配置会继续保存在本地，不设到期时间。本隐私页面也托管于 GitHub Pages。"],
-      ["地图、学习网站与其他链接", "内置地图不请求 GPS，也不提供实时导航。打开 Google Maps 时可能传递景点名称或坐标，而非设备位置。旅游信息、图片来源、语音提供商、HANTEUM Hangul/Korean 及商店链接会打开外部服务，后者可能按各自政策处理连接数据。HANTEUM 链接只包含支持的语言和课程路径，不附带身份信息或学习记录。网站进度与应用进度分别保存。"],
-      ["分享、评价与导出文件", "分享应用仅把显示的介绍文字和商店链接交给您选择的分享应用，不附带录音或学习历史。发表评价或打开推荐的 K-pop 应用使用 Google Play 或浏览器。通过 Android 文档选择器导出的地图许可 ZIP 只含地图数据与署名信息，不含个人学习数据；您选择的云端文档提供商可能上传该文件。"],
-      ["保存期限与删除", "可在应用内移除收藏和录音。通过 Android 设置 → 应用 → HANTEUM: 旅行韩语 → 存储 → 清除存储，或卸载应用，可移除本地进度、偏好、录音、提醒选项及横幅暂停记录。应用备份规则禁用了 Android 自动备份及应用数据迁移。导出文件和语音引擎下载需另行管理。我们无法远程获取或删除仅存于设备的数据。提供商自行管理其处理数据的保留和删除。"],
-      ["安全、跨境处理与权利", "远程配置使用 HTTPS；Google 和 Unity 声明其 SDK 数据在传输中加密。应用使用 Android 私有存储，不声称提供额外的端到端加密。提供商可能按各自政策在您所在国家以外处理数据。您的权利取决于适用法律，可联系我们提出访问、更正、删除或异议请求；其他提供商的数据请联系相应提供商。界面语言或发行国家限制不会免除您的隐私权利。"],
-      ["支持、儿童与本网站", "发送支持邮件会向我们提供邮箱地址及您发送的内容，用于回复和解决请求，并按支持需要及适用义务保留。可请求删除，但须遵守相关义务。请勿发送密码或不必要的私人录音。应用并非为儿童设计，也不收集年龄档案。本政策网站没有额外分析、广告或表单；入口页在本地根据浏览器语言选择译文，也可手动切换。政策变化时更新生效日期。联系：davidleepub@gmail.com。"]
+      [
+        "关于本应用",
+        "Minor Orbit 的 韩国旅游：景点与实用韩语（com.minororbit.koreatravel）面向成年游客。无需账号，也没有开发者运营的学习服务器。课程和景点地图数据随应用提供。我们未另外接入开发者自己的分析或崩溃报告服务。广告 SDK、语音引擎和外部服务可能各自处理数据。"
+      ],
+      [
+        "保存在设备上的信息",
+        "应用私有存储保存收藏的表达、课程及韩文字母进度、测验结果、偏好、使用日期、评价提醒与 K-pop 推荐选项、广告同意、横幅暂停时间、本地广告统计和已验证的广告配置。学习记录不会上传给我们。应用无法得知您是否已发表商店评价。本地广告日志只记录结果类别和数字代码，不含录音或课程正文，应用不会上传这些日志。"
+      ],
+      [
+        "可选的麦克风录音",
+        "仅在您选择录音练习时请求麦克风权限，拒绝不会影响其他课程。每段最长30秒。点击保存会保留草稿，并替换该表达之前的录音，可在应用内删除。录音不会上传给开发者、广告或 AI 服务。应用不进行语音识别或自动发音评分。"
+      ],
+      [
+        "MP3 与 Android 朗读",
+        "内置 MP3 在本地播放，不调用语音生成 API。选择 Android 文字转语音或某句缺少录音时，应用只向已安装的引擎提供固定课程文字，不提供麦克风录音。网络使用、语音下载和诊断信息取决于引擎及提供商。应用使用过程中不会通过 Google Cloud TTS、fal.ai 或 ElevenLabs API 生成语音。"
+      ],
+      [
+        "广告与提供商处理的数据",
+        "应用使用 Unity Ads 直接 SDK 4.21.0、Google AdMob SDK 25.5.0 和 Google UMP。默认启用 Unity、停用 AdMob；经验证的远程配置可更改启用的广告网络。两者均启用并准备就绪时，首次请求按 Unity 80%、AdMob 20%选择，失败时最多切换一次。这不保证实际展示比例。应用向 Unity 传递仅限情境广告的隐私标志，但不代表完全不处理数据。提供商为广告、衡量、功能和反欺诈收集或共享 IP 推算的大致位置、设备或账号等标识符、应用及广告互动和诊断信息。Unity 也列明购买历史；本应用没有应用内购买，不向两家公司发送学习记录或录音。其他应用活动的收集取决于 Unity 的 Acquire Optimization 设置。官方披露链接见下方。"
+      ],
+      [
+        "广告隐私选择",
+        "Google UMP 检查是否可请求广告，并在需要时显示同意表单；设置中也会在需要时显示广告隐私选项。您还可使用 Android 广告 ID 设置和 Unity 广告内的隐私选项，包括向提供商请求删除数据。自愿观看奖励视频且确认完成后，横幅暂停2小时。拒绝或跳过不会锁定课程。暂停横幅并不保证所有 SDK 处理停止。"
+      ],
+      [
+        "签名配置与 GitHub",
+        "应用在前台使用期间，最多每6小时检查一次 GitHub Pages 上的固定 HTTPS 配置文件。GitHub 会接收 IP 地址和请求信息，不会收到学习历史或录音。应用验证签名、应用标识、版本及允许值。配置只控制广告网络启用状态和首次选择权重，不能传入代码、任意网址、广告 ID 或绕过同意。离线或验证失败时，最后一次有效配置会继续保存在本地，不设到期时间。本隐私页面也托管于 GitHub Pages。"
+      ],
+      [
+        "地图、学习网站与其他链接",
+        "内置地图不请求 GPS，也不提供实时导航。打开 Google Maps 时可能传递景点名称或坐标，而非设备位置。旅游信息、图片来源、语音提供商、HANTEUM Hangul/Korean 及商店链接会打开外部服务，后者可能按各自政策处理连接数据。HANTEUM 链接只包含支持的语言和课程路径，不附带身份信息或学习记录。网站进度与应用进度分别保存。"
+      ],
+      [
+        "分享、评价与导出文件",
+        "分享应用仅把显示的介绍文字和商店链接交给您选择的分享应用，不附带录音或学习历史。发表评价或打开推荐的 K-pop 应用使用 Google Play 或浏览器。通过 Android 文档选择器导出的地图许可 ZIP 只含地图数据与署名信息，不含个人学习数据；您选择的云端文档提供商可能上传该文件。"
+      ],
+      [
+        "保存期限与删除",
+        "可在应用内移除收藏和录音。通过 Android 设置 → 应用 → 韩国旅游：景点与实用韩语 → 存储 → 清除存储，或卸载应用，可移除本地进度、偏好、录音、提醒选项及横幅暂停记录。应用备份规则禁用了 Android 自动备份及应用数据迁移。导出文件和语音引擎下载需另行管理。我们无法远程获取或删除仅存于设备的数据。提供商自行管理其处理数据的保留和删除。"
+      ],
+      [
+        "安全、跨境处理与权利",
+        "远程配置使用 HTTPS；Google 和 Unity 声明其 SDK 数据在传输中加密。应用使用 Android 私有存储，不声称提供额外的端到端加密。提供商可能按各自政策在您所在国家以外处理数据。您的权利取决于适用法律，可联系我们提出访问、更正、删除或异议请求；其他提供商的数据请联系相应提供商。界面语言或发行国家限制不会免除您的隐私权利。"
+      ],
+      [
+        "支持、儿童与本网站",
+        "发送支持邮件会向我们提供邮箱地址及您发送的内容，用于回复和解决请求，并按支持需要及适用义务保留。可请求删除，但须遵守相关义务。请勿发送密码或不必要的私人录音。应用并非为儿童设计，也不收集年龄档案。本政策网站没有额外分析、广告或表单；入口页在本地根据浏览器语言选择译文，也可手动切换。政策变化时更新生效日期。联系：davidleepub@gmail.com。"
+      ]
     ]
   },
   "zh-Hant": {
-    "name": "繁體中文", "title": "隱私權政策", "language": "語言", "updated": "生效日期", "contact": "隱私聯絡信箱",
+    "name": "繁體中文",
+    "title": "隱私權政策",
+    "language": "語言",
+    "updated": "生效日期",
+    "contact": "隱私聯絡信箱",
     "sections": [
-      ["關於本應用程式", "Minor Orbit 的 HANTEUM: 旅行韓語（com.minororbit.koreatravel）適用於成年旅客。不需帳號，也沒有開發者營運的學習伺服器。教材和景點地圖資料隨應用程式提供。我們未另行加入開發者自己的分析或當機回報服務。廣告 SDK、語音引擎與外部服務可能各自處理資料。"],
-      ["儲存在裝置上的資訊", "應用程式專用儲存空間會保存收藏的表達、課程與韓文字母進度、測驗結果、偏好設定、使用日期、評價提醒與 K-pop 推薦選項、廣告同意、橫幅暫停時間、本機廣告統計及已驗證的廣告設定。學習紀錄不會上傳給我們。應用程式無法得知您是否已發表商店評價。本機廣告紀錄只含結果類別與數字代碼，不含錄音或教材本文，也不會上傳。"],
-      ["選擇性的麥克風錄音", "只有在您選擇錄音練習時才要求麥克風權限，拒絕不會影響其他課程。每段最長30秒。儲存後會保留草稿並取代該表達先前的錄音，可於應用程式內刪除。錄音不會上傳給開發者、廣告或 AI 服務。應用程式不進行語音辨識或自動發音評分。"],
-      ["MP3 與 Android 朗讀", "內建 MP3 在本機播放，不呼叫語音生成 API。選擇 Android 文字轉語音或某句缺少錄音時，應用程式只將固定教材文字交給已安裝的引擎，不提供麥克風錄音。網路使用、語音下載與診斷資訊取決於引擎及供應商。使用期間不會透過 Google Cloud TTS、fal.ai 或 ElevenLabs API 生成語音。"],
-      ["廣告與供應商的資料處理", "應用程式使用 Unity Ads 直接 SDK 4.21.0、Google AdMob SDK 25.5.0 與 Google UMP。預設啟用 Unity、停用 AdMob；經驗證的遠端設定可更改啟用的廣告聯播網。兩者皆啟用並準備完成時，首次請求依 Unity 80%、AdMob 20%選擇，失敗時最多切換一次。這不保證實際曝光比例。應用程式向 Unity 傳遞僅限情境廣告的隱私旗標，但不代表不處理任何資料。供應商為廣告、成效衡量、功能及防詐騙收集或分享由 IP 推算的大略位置、裝置或帳號等識別碼、應用程式及廣告互動和診斷資訊。Unity 也列出購買紀錄；本應用程式沒有應用程式內購買，不向兩家公司傳送學習紀錄或錄音。其他應用程式活動的收集取決於 Unity 的 Acquire Optimization 設定。官方揭露連結見下方。"],
-      ["廣告隱私選擇", "Google UMP 會檢查是否可請求廣告，並在需要時顯示同意表單；設定中也會在需要時顯示廣告隱私選項。您也可使用 Android 廣告 ID 設定及 Unity 廣告內的隱私功能，包括向供應商請求刪除資料。自願觀看獎勵影片且確認完成後，橫幅暫停2小時。拒絕或略過不會鎖定課程。暫停橫幅並不保證所有 SDK 處理都停止。"],
-      ["簽章設定與 GitHub", "應用程式在前景使用時，最多每6小時檢查一次 GitHub Pages 的固定 HTTPS 設定檔。GitHub 會收到 IP 位址與請求資訊，不會收到學習歷程或錄音。應用程式驗證簽章、應用程式識別、版本與允許值。設定只控制廣告聯播網啟用狀態及首次選擇權重，不能傳入程式碼、任意網址、廣告 ID 或繞過同意。離線或驗證失敗時，最後的有效設定會繼續保存在本機，不設到期日。本政策頁面也託管於 GitHub Pages。"],
-      ["地圖、學習網站與外部連結", "內建地圖不要求 GPS，也不提供即時導航。開啟 Google Maps 可能傳送景點名稱或座標，而非您的裝置位置。觀光資訊、照片來源、語音供應商、HANTEUM Hangul/Korean 及商店連結會開啟外部服務，後者可能依自己的政策處理連線資料。HANTEUM 連結只含支援語言與課程路徑，不附加身分資訊或學習紀錄。網站進度與應用程式進度分別保存。"],
-      ["分享、評價與匯出檔案", "分享應用程式只會將顯示的介紹文字與商店連結交給您選擇的分享應用程式，不附帶錄音或學習歷程。發表評價或開啟推薦的 K-pop 應用程式會使用 Google Play 或瀏覽器。透過 Android 文件選擇器匯出的地圖授權 ZIP 只含地圖資料與署名資訊，不含個人學習資料；您選擇的雲端文件供應商可能上傳該檔案。"],
-      ["保存期限與刪除", "可於應用程式內移除收藏與錄音。透過 Android 設定 → 應用程式 → HANTEUM: 旅行韓語 → 儲存空間 → 清除儲存空間，或解除安裝，可移除本機進度、偏好、錄音、提醒選項與橫幅暫停紀錄。應用程式備份規則已停用 Android 自動備份與資料移轉。匯出檔案及語音引擎下載需另行管理。我們無法遠端取得或刪除僅存於裝置的資料。供應商自行管理其資料的保留與刪除。"],
-      ["安全、跨境處理與權利", "遠端設定使用 HTTPS；Google 與 Unity 表示其 SDK 資料在傳輸中加密。應用程式使用 Android 專用儲存空間，不宣稱提供額外端對端加密。供應商可能依自己的政策在您所在國家以外處理資料。您的權利依適用法律而定，可聯絡我們提出存取、更正、刪除或異議請求；其他供應商的資料請洽該供應商。介面語言或發行國家限制不會使您的隱私權失效。"],
-      ["支援、兒童與本網站", "寄送支援電子郵件會向我們提供您的信箱與寄送內容，用於回覆及解決請求，並依支援需要及適用義務保留。可請求刪除，但須遵守相關義務。請勿寄送密碼或不必要的私人錄音。應用程式並非為兒童設計，也不收集年齡檔案。本政策網站沒有額外分析、廣告或表單；入口頁在本機依瀏覽器語言選擇譯文，也可手動切換。變更時會更新生效日期。聯絡：davidleepub@gmail.com。"]
+      [
+        "關於本應用程式",
+        "Minor Orbit 的 韓國旅遊：景點與實用韓語（com.minororbit.koreatravel）適用於成年旅客。不需帳號，也沒有開發者營運的學習伺服器。教材和景點地圖資料隨應用程式提供。我們未另行加入開發者自己的分析或當機回報服務。廣告 SDK、語音引擎與外部服務可能各自處理資料。"
+      ],
+      [
+        "儲存在裝置上的資訊",
+        "應用程式專用儲存空間會保存收藏的表達、課程與韓文字母進度、測驗結果、偏好設定、使用日期、評價提醒與 K-pop 推薦選項、廣告同意、橫幅暫停時間、本機廣告統計及已驗證的廣告設定。學習紀錄不會上傳給我們。應用程式無法得知您是否已發表商店評價。本機廣告紀錄只含結果類別與數字代碼，不含錄音或教材本文，也不會上傳。"
+      ],
+      [
+        "選擇性的麥克風錄音",
+        "只有在您選擇錄音練習時才要求麥克風權限，拒絕不會影響其他課程。每段最長30秒。儲存後會保留草稿並取代該表達先前的錄音，可於應用程式內刪除。錄音不會上傳給開發者、廣告或 AI 服務。應用程式不進行語音辨識或自動發音評分。"
+      ],
+      [
+        "MP3 與 Android 朗讀",
+        "內建 MP3 在本機播放，不呼叫語音生成 API。選擇 Android 文字轉語音或某句缺少錄音時，應用程式只將固定教材文字交給已安裝的引擎，不提供麥克風錄音。網路使用、語音下載與診斷資訊取決於引擎及供應商。使用期間不會透過 Google Cloud TTS、fal.ai 或 ElevenLabs API 生成語音。"
+      ],
+      [
+        "廣告與供應商的資料處理",
+        "應用程式使用 Unity Ads 直接 SDK 4.21.0、Google AdMob SDK 25.5.0 與 Google UMP。預設啟用 Unity、停用 AdMob；經驗證的遠端設定可更改啟用的廣告聯播網。兩者皆啟用並準備完成時，首次請求依 Unity 80%、AdMob 20%選擇，失敗時最多切換一次。這不保證實際曝光比例。應用程式向 Unity 傳遞僅限情境廣告的隱私旗標，但不代表不處理任何資料。供應商為廣告、成效衡量、功能及防詐騙收集或分享由 IP 推算的大略位置、裝置或帳號等識別碼、應用程式及廣告互動和診斷資訊。Unity 也列出購買紀錄；本應用程式沒有應用程式內購買，不向兩家公司傳送學習紀錄或錄音。其他應用程式活動的收集取決於 Unity 的 Acquire Optimization 設定。官方揭露連結見下方。"
+      ],
+      [
+        "廣告隱私選擇",
+        "Google UMP 會檢查是否可請求廣告，並在需要時顯示同意表單；設定中也會在需要時顯示廣告隱私選項。您也可使用 Android 廣告 ID 設定及 Unity 廣告內的隱私功能，包括向供應商請求刪除資料。自願觀看獎勵影片且確認完成後，橫幅暫停2小時。拒絕或略過不會鎖定課程。暫停橫幅並不保證所有 SDK 處理都停止。"
+      ],
+      [
+        "簽章設定與 GitHub",
+        "應用程式在前景使用時，最多每6小時檢查一次 GitHub Pages 的固定 HTTPS 設定檔。GitHub 會收到 IP 位址與請求資訊，不會收到學習歷程或錄音。應用程式驗證簽章、應用程式識別、版本與允許值。設定只控制廣告聯播網啟用狀態及首次選擇權重，不能傳入程式碼、任意網址、廣告 ID 或繞過同意。離線或驗證失敗時，最後的有效設定會繼續保存在本機，不設到期日。本政策頁面也託管於 GitHub Pages。"
+      ],
+      [
+        "地圖、學習網站與外部連結",
+        "內建地圖不要求 GPS，也不提供即時導航。開啟 Google Maps 可能傳送景點名稱或座標，而非您的裝置位置。觀光資訊、照片來源、語音供應商、HANTEUM Hangul/Korean 及商店連結會開啟外部服務，後者可能依自己的政策處理連線資料。HANTEUM 連結只含支援語言與課程路徑，不附加身分資訊或學習紀錄。網站進度與應用程式進度分別保存。"
+      ],
+      [
+        "分享、評價與匯出檔案",
+        "分享應用程式只會將顯示的介紹文字與商店連結交給您選擇的分享應用程式，不附帶錄音或學習歷程。發表評價或開啟推薦的 K-pop 應用程式會使用 Google Play 或瀏覽器。透過 Android 文件選擇器匯出的地圖授權 ZIP 只含地圖資料與署名資訊，不含個人學習資料；您選擇的雲端文件供應商可能上傳該檔案。"
+      ],
+      [
+        "保存期限與刪除",
+        "可於應用程式內移除收藏與錄音。透過 Android 設定 → 應用程式 → 韓國旅遊：景點與實用韓語 → 儲存空間 → 清除儲存空間，或解除安裝，可移除本機進度、偏好、錄音、提醒選項與橫幅暫停紀錄。應用程式備份規則已停用 Android 自動備份與資料移轉。匯出檔案及語音引擎下載需另行管理。我們無法遠端取得或刪除僅存於裝置的資料。供應商自行管理其資料的保留與刪除。"
+      ],
+      [
+        "安全、跨境處理與權利",
+        "遠端設定使用 HTTPS；Google 與 Unity 表示其 SDK 資料在傳輸中加密。應用程式使用 Android 專用儲存空間，不宣稱提供額外端對端加密。供應商可能依自己的政策在您所在國家以外處理資料。您的權利依適用法律而定，可聯絡我們提出存取、更正、刪除或異議請求；其他供應商的資料請洽該供應商。介面語言或發行國家限制不會使您的隱私權失效。"
+      ],
+      [
+        "支援、兒童與本網站",
+        "寄送支援電子郵件會向我們提供您的信箱與寄送內容，用於回覆及解決請求，並依支援需要及適用義務保留。可請求刪除，但須遵守相關義務。請勿寄送密碼或不必要的私人錄音。應用程式並非為兒童設計，也不收集年齡檔案。本政策網站沒有額外分析、廣告或表單；入口頁在本機依瀏覽器語言選擇譯文，也可手動切換。變更時會更新生效日期。聯絡：davidleepub@gmail.com。"
+      ]
     ]
   }
 }
